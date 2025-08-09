@@ -15,21 +15,32 @@ This includes:
 * **Question refinement** – Iteratively improving questions based on evaluation feedback.
 
 # Tasks
-0. data prepare
+##  data prepare
 - qgen_init
     - qbank vector database
         - `python build_qbank_db.py`
     - inputs
+        - fewshot examples see data/fewshot_source
+            - from the official repo
 
-1. qgen_init
+## qgen_init
 - src/qgen_init_lgc.py
 - `python src/qgen_init_lgc.py`
+    - check prompt
 - `python test_qgen_init.py`
-- input:
-    - (clinical_note, topic, keypoint)
-- output: 
-    - (context, question, correct_answer, distractor_options)
-        - distractor_options is a list of options does not include correct answer
+    - input:
+        - (clinical_note, topic, keypoint)
+    - output: 
+        - (context, question, correct_answer, distractor_options)
+            - distractor_options is a list of options does not include correct answer
+
+## reasoning_answer
+- src/reasoning_answer_lgc.py
+- `python test_reasoning_answer.py`
+    - input:
+        (context, question, options)
+    - output: 
+        (attempted_answer, reasoning)
 
 # Reference
 - [MCQG-SRefine official github](https://github.com/bio-nlp/MedQG)
