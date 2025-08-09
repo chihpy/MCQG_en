@@ -1,0 +1,944 @@
+[
+ {
+  "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+  "topic": "select most appropriate laboratory or diagnostic study",
+  "keypoint": "Transvaginal ultrasound,Cystoscopy",
+  "response": [
+   {
+    "qgen_in": {
+     "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+     "topic": "select most appropriate laboratory or diagnostic study",
+     "keypoint": "Transvaginal ultrasound,Cystoscopy"
+    }
+   },
+   {
+    "qgen_out": {
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years prior underwent routine postoperative follow-up imaging. A CT scan suggested a possible ovarian tumor, prompting referral to Obstetrics and Gynecology. Transvaginal ultrasound revealed a mass with abundant internal blood flow located in the bladder mucosa. Despite the absence of urinary symptoms, urologic evaluation was initiated. Urinalysis was negative for hematuria, but urine cytology demonstrated dysmorphic cells suggestive of malignancy. Cystoscopy identified a stalked papillary tumor at the apex of the posterior bladder wall. The patient underwent transurethral resection of the bladder tumor, which measured 2 cm and was pathologically confirmed as a non-muscle-invasive transitional cell carcinoma (stage 0a). Intravesical chemotherapy was administered postoperatively, and no recurrence was observed at three months. Postoperative CT imaging has not yet been performed.",
+     "question": "In a patient with a bladder mucosal mass detected on transvaginal ultrasound and suspicious urine cytology, what is the most appropriate next diagnostic step to confirm the diagnosis?",
+     "correct_answer": "Cystoscopy with biopsy",
+     "distractor_options": [
+      "Pelvic MRI without cystoscopy",
+      "Repeat urine cytology in 6 weeks",
+      "Intravenous pyelogram (IVP)",
+      "Empiric intravesical chemotherapy without further diagnostic evaluation"
+     ],
+     "distractor": {
+      "answer_index": "D",
+      "options": [
+       "A: Empiric intravesical chemotherapy without further diagnostic evaluation",
+       "B: Repeat urine cytology in 6 weeks",
+       "C: Intravenous pyelogram (IVP)",
+       "D: Cystoscopy with biopsy",
+       "E: Pelvic MRI without cystoscopy"
+      ],
+      "distractor_row": "Distractor options:  \nA: Pelvic MRI without cystoscopy  \nB: Repeat urine cytology in 6 weeks  \nC: Intravenous pyelogram (IVP)  \nD: Empiric intravesical chemotherapy without further diagnostic evaluation",
+      "distractor_lst": [
+       "Pelvic MRI without cystoscopy",
+       "Repeat urine cytology in 6 weeks",
+       "Intravenous pyelogram (IVP)",
+       "Empiric intravesical chemotherapy without further diagnostic evaluation"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Cystoscopy with biopsy",
+     "reasoning": "The patient has a bladder mucosal mass detected on transvaginal ultrasound and urine cytology showing dysmorphic cells suggestive of malignancy. These findings strongly indicate a bladder tumor, most likely transitional cell carcinoma. The definitive diagnosis and staging require direct visualization and histological confirmation, which is achieved through cystoscopy with biopsy or transurethral resection of the bladder tumor (TURBT). Cystoscopy allows for assessment of tumor size, location, and depth of invasion, which are critical for treatment planning. Empiric intravesical chemotherapy without tissue diagnosis (A) is inappropriate. Repeat urine cytology (B) delays diagnosis and is insufficient alone. Intravenous pyelogram (C) evaluates the upper urinary tract but does not provide tissue diagnosis. Pelvic MRI (E) may help in staging but cannot replace cystoscopy and biopsy for diagnosis. Therefore, cystoscopy with biopsy is the most appropriate next step.",
+     "reasoning_answer_response": "Correct answer: Cystoscopy with biopsy\n\nReasoning: The patient has a bladder mucosal mass detected on transvaginal ultrasound and urine cytology showing dysmorphic cells suggestive of malignancy. These findings strongly indicate a bladder tumor, most likely transitional cell carcinoma. The definitive diagnosis and staging require direct visualization and histological confirmation, which is achieved through cystoscopy with biopsy or transurethral resection of the bladder tumor (TURBT). Cystoscopy allows for assessment of tumor size, location, and depth of invasion, which are critical for treatment planning. Empiric intravesical chemotherapy without tissue diagnosis (A) is inappropriate. Repeat urine cytology (B) delays diagnosis and is insufficient alone. Intravenous pyelogram (C) evaluates the upper urinary tract but does not provide tissue diagnosis. Pelvic MRI (E) may help in staging but cannot replace cystoscopy and biopsy for diagnosis. Therefore, cystoscopy with biopsy is the most appropriate next step."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic, focusing on the diagnostic workup of a bladder mass and the sequence of investigations leading to the diagnosis.",
+      "concision": "The context is concise, summarizing the key clinical events and diagnostic findings without unnecessary detail or repetition.",
+      "coherent": "The context is coherent, logically presenting the patient's history, findings, and the sequence of diagnostic steps, leading up to the question.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and diagnostic process.",
+      "specific": "The context is specific, addressing the diagnostic evaluation of a bladder mass and the role of cystoscopy and biopsy.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides appropriate clues (ultrasound findings, cytology, cystoscopy) without directly stating the diagnosis, allowing the test taker to reason to the answer.",
+      "completeness": "The context is complete, providing all necessary information for the test taker to answer the question without ambiguity.",
+      "misdirection": "There is no misdirection; the context is straightforward and does not mislead the test taker."
+     },
+     "context_score": "40/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic, focusing on the diagnostic workup of a bladder mass and the sequence of investigations leading to the diagnosis.\", \"concision\": \"The context is concise, summarizing the key clinical events and diagnostic findings without unnecessary detail or repetition.\", \"coherent\": \"The context is coherent, logically presenting the patient's history, findings, and the sequence of diagnostic steps, leading up to the question.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and diagnostic process.\", \"specific\": \"The context is specific, addressing the diagnostic evaluation of a bladder mass and the role of cystoscopy and biopsy.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides appropriate clues (ultrasound findings, cytology, cystoscopy) without directly stating the diagnosis, allowing the test taker to reason to the answer.\", \"completeness\": \"The context is complete, providing all necessary information for the test taker to answer the question without ambiguity.\", \"misdirection\": \"There is no misdirection; the context is straightforward and does not mislead the test taker.\"}, \"context_score\": \"40/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context, which describes the sequence of diagnostic steps leading to the diagnosis of bladder cancer. The context provides sufficient information to support the question.",
+      "clear": "The question is clear and unambiguous, specifying the clinical scenario and asking for the most appropriate next diagnostic step.",
+      "concluding": "The flow from the context to the question is logical and organic, as the context describes the findings and the need for diagnostic confirmation, leading naturally to the question.",
+      "difficulty": "The question is moderately challenging, requiring knowledge of the diagnostic workup for bladder masses and the role of cystoscopy with biopsy. It is not too easy, as it requires clinical reasoning beyond simply recalling facts.",
+      "clarity": "The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation."
+     },
+     "question_score": "20/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context, which describes the sequence of diagnostic steps leading to the diagnosis of bladder cancer. The context provides sufficient information to support the question.\", \"clear\": \"The question is clear and unambiguous, specifying the clinical scenario and asking for the most appropriate next diagnostic step.\", \"concluding\": \"The flow from the context to the question is logical and organic, as the context describes the findings and the need for diagnostic confirmation, leading naturally to the question.\", \"difficulty\": \"The question is moderately challenging, requiring knowledge of the diagnostic workup for bladder masses and the role of cystoscopy with biopsy. It is not too easy, as it requires clinical reasoning beyond simply recalling facts.\", \"clarity\": \"The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation.\"}, \"question_score\": \"20/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Transvaginal ultrasound, Cystoscopy) and the clinical scenario, as it is the gold standard for diagnosing bladder tumors.",
+      "occurrence": "The answer 'Cystoscopy with biopsy' is not explicitly mentioned in the context, though cystoscopy and subsequent resection are described as part of the patient's management. However, the specific phrase 'cystoscopy with biopsy' as a diagnostic step is not directly stated, making the answer appropriate.",
+      "justification": "The answer is logically supported by the context: the patient has a bladder mass on imaging and suspicious cytology, and the next step to confirm diagnosis is direct visualization and tissue sampling, which is achieved by cystoscopy with biopsy.",
+      "depth_of_understanding": "Selecting this answer requires understanding the diagnostic pathway for bladder tumors, including the limitations of imaging and cytology and the necessity of histological confirmation.",
+      "prevention_of_guesswork": "The answer is specific and contextually appropriate, reducing the likelihood of guessing. It avoids common misconceptions, such as relying solely on imaging or cytology, and aligns with standard clinical practice."
+     },
+     "correct_answer_score": "10/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Transvaginal ultrasound, Cystoscopy) and the clinical scenario, as it is the gold standard for diagnosing bladder tumors.\", \"occurrence\": \"The answer 'Cystoscopy with biopsy' is not explicitly mentioned in the context, though cystoscopy and subsequent resection are described as part of the patient's management. However, the specific phrase 'cystoscopy with biopsy' as a diagnostic step is not directly stated, making the answer appropriate.\", \"justification\": \"The answer is logically supported by the context: the patient has a bladder mass on imaging and suspicious cytology, and the next step to confirm diagnosis is direct visualization and tissue sampling, which is achieved by cystoscopy with biopsy.\", \"depth_of_understanding\": \"Selecting this answer requires understanding the diagnostic pathway for bladder tumors, including the limitations of imaging and cytology and the necessity of histological confirmation.\", \"prevention_of_guesswork\": \"The answer is specific and contextually appropriate, reducing the likelihood of guessing. It avoids common misconceptions, such as relying solely on imaging or cytology, and aligns with standard clinical practice.\"}, \"correct_answer_score\": \"10/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are not fully standardized. Some use abbreviations (IVP), some are full phrases, and some are partial procedures. The correct answer is a procedure with a specific diagnostic intent, while distractors are a mix of imaging, lab, and treatment options. Standardizing to either all procedures or all imaging/lab tests would improve clarity.",
+      "length": "The distractors vary in length. For example, 'Repeat urine cytology in 6 weeks' is much longer than 'Intravenous pyelogram (IVP)'. The correct answer is concise, so distractors should be similarly concise for balance.",
+      "relation": "All distractors are related to the diagnostic workup of a bladder mass or hematuria, which is appropriate. They are plausible alternative next steps in the context of urologic evaluation.",
+      "variation": "There is good variation: imaging (MRI, IVP), lab (urine cytology), and a treatment option (empiric chemotherapy). None are duplicates or too similar to each other or the correct answer.",
+      "plausibility": "All distractors are plausible in the sense that they could be considered in the workup of a bladder mass, though some (like empiric chemotherapy) are less likely without tissue diagnosis. They challenge the test-taker to distinguish the gold standard diagnostic step.",
+      "differentiation": "The correct answer (cystoscopy with biopsy) clearly stands out as the gold standard for diagnosis, while the distractors are less definitive or inappropriate as next steps. This allows the correct answer to be clearly superior based on clinical reasoning.",
+      "common_mistakes": "The distractors align with common misconceptions: over-reliance on imaging (MRI), repeating cytology instead of proceeding to tissue diagnosis, using IVP for lower tract lesions, or starting treatment without diagnosis. These are all reasonable traps for less experienced clinicians."
+     },
+     "distractor_options_score": "25/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are not fully standardized. Some use abbreviations (IVP), some are full phrases, and some are partial procedures. The correct answer is a procedure with a specific diagnostic intent, while distractors are a mix of imaging, lab, and treatment options. Standardizing to either all procedures or all imaging/lab tests would improve clarity.\", \"length\": \"The distractors vary in length. For example, 'Repeat urine cytology in 6 weeks' is much longer than 'Intravenous pyelogram (IVP)'. The correct answer is concise, so distractors should be similarly concise for balance.\", \"relation\": \"All distractors are related to the diagnostic workup of a bladder mass or hematuria, which is appropriate. They are plausible alternative next steps in the context of urologic evaluation.\", \"variation\": \"There is good variation: imaging (MRI, IVP), lab (urine cytology), and a treatment option (empiric chemotherapy). None are duplicates or too similar to each other or the correct answer.\", \"plausibility\": \"All distractors are plausible in the sense that they could be considered in the workup of a bladder mass, though some (like empiric chemotherapy) are less likely without tissue diagnosis. They challenge the test-taker to distinguish the gold standard diagnostic step.\", \"differentiation\": \"The correct answer (cystoscopy with biopsy) clearly stands out as the gold standard for diagnosis, while the distractors are less definitive or inappropriate as next steps. This allows the correct answer to be clearly superior based on clinical reasoning.\", \"common_mistakes\": \"The distractors align with common misconceptions: over-reliance on imaging (MRI), repeating cytology instead of proceeding to tissue diagnosis, using IVP for lower tract lesions, or starting treatment without diagnosis. These are all reasonable traps for less experienced clinicians.\"}, \"distractor_options_score\": \"25/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5 - The attempted answer is exactly the same as the correct answer (Cystoscopy with biopsy), so full points are awarded.",
+      "logical_flow": "5/5 - The reasoning follows a clear and logical sequence: it starts with the findings (ultrasound and cytology), explains why these suggest malignancy, and then justifies why cystoscopy with biopsy is necessary for definitive diagnosis and staging.",
+      "evidence_based_reasoning": "5/5 - The answer is well-supported by evidence from the context: the presence of a bladder mass and suspicious cytology necessitate direct visualization and histological confirmation, which is only possible with cystoscopy and biopsy.",
+      "consideration_of_options": "5/5 - The reasoning systematically evaluates and eliminates each distractor option with supporting evidence, explaining why each is inappropriate compared to cystoscopy with biopsy."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5 - The attempted answer is exactly the same as the correct answer (Cystoscopy with biopsy), so full points are awarded.\",\n    \"logical_flow\": \"5/5 - The reasoning follows a clear and logical sequence: it starts with the findings (ultrasound and cytology), explains why these suggest malignancy, and then justifies why cystoscopy with biopsy is necessary for definitive diagnosis and staging.\",\n    \"evidence_based_reasoning\": \"5/5 - The answer is well-supported by evidence from the context: the presence of a bladder mass and suspicious cytology necessitate direct visualization and histological confirmation, which is only possible with cystoscopy and biopsy.\",\n    \"consideration_of_options\": \"5/5 - The reasoning systematically evaluates and eliminates each distractor option with supporting evidence, explaining why each is inappropriate compared to cystoscopy with biopsy.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 1.0,
+      "question": 1.0,
+      "correct_answer": 1.0,
+      "distractor_options": 0.7142857142857143,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago underwent routine follow-up imaging. A CT scan suggested a possible ovarian tumor, but transvaginal ultrasound revealed a vascular mass within the bladder mucosa. Although she had no urinary symptoms, urine cytology showed atypical cells suspicious for malignancy. To further evaluate the bladder lesion, a direct visualization procedure was planned.\n\nQuestion:  \nIn a patient with a bladder mucosal mass detected on transvaginal ultrasound and suspicious urine cytology, what is the most appropriate next diagnostic step to confirm the diagnosis?\n\nCorrect answer:  \nCystoscopy with biopsy\n\nDistractor options:  \na) Pelvic MRI without cystoscopy  \nb) Repeat urine cytology in 6 weeks  \nc) Intravenous pyelogram (IVP)  \nd) Empiric intravesical chemotherapy without tissue diagnosis",
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago underwent routine follow-up imaging. A CT scan suggested a possible ovarian tumor, but transvaginal ultrasound revealed a vascular mass within the bladder mucosa. Although she had no urinary symptoms, urine cytology showed atypical cells suspicious for malignancy. To further evaluate the bladder lesion, a direct visualization procedure was planned.",
+     "question": "In a patient with a bladder mucosal mass detected on transvaginal ultrasound and suspicious urine cytology, what is the most appropriate next diagnostic step to confirm the diagnosis?",
+     "correct_answer": "Cystoscopy with biopsy",
+     "distractor_options": [
+      "Pelvic MRI without cystoscopy",
+      "Repeat urine cytology in 6 weeks",
+      "Intravenous pyelogram (IVP)",
+      "Empiric intravesical chemotherapy without tissue diagnosis"
+     ],
+     "distractor": {
+      "answer_index": "D",
+      "options": [
+       "A: Empiric intravesical chemotherapy without tissue diagnosis",
+       "B: Intravenous pyelogram (IVP)",
+       "C: Pelvic MRI without cystoscopy",
+       "D: Cystoscopy with biopsy",
+       "E: Repeat urine cytology in 6 weeks"
+      ],
+      "distractor_lst": [
+       "Pelvic MRI without cystoscopy",
+       "Repeat urine cytology in 6 weeks",
+       "Intravenous pyelogram (IVP)",
+       "Empiric intravesical chemotherapy without tissue diagnosis"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Cystoscopy with biopsy",
+     "reasoning": "The presence of a vascular mass within the bladder mucosa on transvaginal ultrasound combined with atypical cells suspicious for malignancy on urine cytology strongly suggests a bladder tumor. The most definitive diagnostic step is cystoscopy with biopsy, which allows direct visualization of the lesion and histopathological confirmation. This approach is essential for accurate diagnosis, staging, and guiding treatment. Empiric intravesical chemotherapy (A) without tissue diagnosis is inappropriate as it risks treating without confirmation. Intravenous pyelogram (B) is outdated and less sensitive for bladder mucosal lesions. Pelvic MRI (C) can provide anatomical detail but cannot replace tissue diagnosis. Repeat urine cytology (E) delays diagnosis and management. Therefore, cystoscopy with biopsy is the gold standard for evaluating bladder masses.",
+     "reasoning_answer_response": "Correct answer: Cystoscopy with biopsy\n\nReasoning: The presence of a vascular mass within the bladder mucosa on transvaginal ultrasound combined with atypical cells suspicious for malignancy on urine cytology strongly suggests a bladder tumor. The most definitive diagnostic step is cystoscopy with biopsy, which allows direct visualization of the lesion and histopathological confirmation. This approach is essential for accurate diagnosis, staging, and guiding treatment. Empiric intravesical chemotherapy (A) without tissue diagnosis is inappropriate as it risks treating without confirmation. Intravenous pyelogram (B) is outdated and less sensitive for bladder mucosal lesions. Pelvic MRI (C) can provide anatomical detail but cannot replace tissue diagnosis. Repeat urine cytology (E) delays diagnosis and management. Therefore, cystoscopy with biopsy is the gold standard for evaluating bladder masses."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is relevant to the topic, focusing on the diagnostic approach to a bladder mass in a patient with suspicious findings on imaging and cytology.",
+      "concision": "The context is concise, summarizing the key clinical findings and diagnostic dilemma without extraneous detail.",
+      "coherent": "The context is coherent and logically leads up to the question about the next diagnostic step.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and workup.",
+      "specific": "The context is specific, highlighting the relevant findings (bladder mass on ultrasound, suspicious cytology) that necessitate further diagnostic evaluation.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides clues (vascular mass, suspicious cytology) rather than directly stating the diagnosis, allowing for reasoning.",
+      "completeness": "The context is complete, providing all necessary information to answer the question without ambiguity.",
+      "misdirection": "There is no misdirection; the context does not mislead the test taker and supports accurate reasoning."
+     },
+     "context_score": "36/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is relevant to the topic, focusing on the diagnostic approach to a bladder mass in a patient with suspicious findings on imaging and cytology.\", \"concision\": \"The context is concise, summarizing the key clinical findings and diagnostic dilemma without extraneous detail.\", \"coherent\": \"The context is coherent and logically leads up to the question about the next diagnostic step.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and workup.\", \"specific\": \"The context is specific, highlighting the relevant findings (bladder mass on ultrasound, suspicious cytology) that necessitate further diagnostic evaluation.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides clues (vascular mass, suspicious cytology) rather than directly stating the diagnosis, allowing for reasoning.\", \"completeness\": \"The context is complete, providing all necessary information to answer the question without ambiguity.\", \"misdirection\": \"There is no misdirection; the context does not mislead the test taker and supports accurate reasoning.\"}, \"context_score\": \"36/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context provided, which details the sequence of diagnostic findings and the need for tissue confirmation.",
+      "clear": "The question is clear and unambiguous, specifying the clinical scenario and asking for the most appropriate next diagnostic step.",
+      "concluding": "The flow from the context to the question is logical and seamless, as the narrative leads up to the need for diagnostic confirmation.",
+      "difficulty": "The question is moderately challenging, requiring knowledge of the diagnostic workup for bladder masses and the role of cystoscopy with biopsy.",
+      "clarity": "The question is clear and unambiguous, avoiding any confusing or poorly worded elements."
+     },
+     "question_score": "20/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context provided, which details the sequence of diagnostic findings and the need for tissue confirmation.\", \"clear\": \"The question is clear and unambiguous, specifying the clinical scenario and asking for the most appropriate next diagnostic step.\", \"concluding\": \"The flow from the context to the question is logical and seamless, as the narrative leads up to the need for diagnostic confirmation.\", \"difficulty\": \"The question is moderately challenging, requiring knowledge of the diagnostic workup for bladder masses and the role of cystoscopy with biopsy.\", \"clarity\": \"The question is clear and unambiguous, avoiding any confusing or poorly worded elements.\"}, \"question_score\": \"20/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Cystoscopy) and is the most appropriate diagnostic study for a bladder mass detected on imaging and suspicious cytology.",
+      "occurrence": "The term 'cystoscopy' is mentioned in the context, but not as a completed diagnostic step—rather, it is described as the planned next step, which is appropriate for the question. However, this makes the answer somewhat more obvious.",
+      "justification": "The answer is logically supported by the context: the patient has a bladder mass on imaging and suspicious urine cytology, and cystoscopy with biopsy is the gold standard for diagnosis and confirmation.",
+      "depth_of_understanding": "Selecting cystoscopy with biopsy requires understanding the diagnostic pathway for bladder tumors, including the limitations of imaging and cytology alone, and the necessity of tissue diagnosis.",
+      "prevention_of_guesswork": "The answer is well-aligned with the context and clinical reasoning, and the distractors are plausible but less appropriate, reducing the likelihood of guessing."
+     },
+     "correct_answer_score": "9/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Cystoscopy) and is the most appropriate diagnostic study for a bladder mass detected on imaging and suspicious cytology.\", \"occurrence\": \"The term 'cystoscopy' is mentioned in the context, but not as a completed diagnostic step—rather, it is described as the planned next step, which is appropriate for the question. However, this makes the answer somewhat more obvious.\", \"justification\": \"The answer is logically supported by the context: the patient has a bladder mass on imaging and suspicious urine cytology, and cystoscopy with biopsy is the gold standard for diagnosis and confirmation.\", \"depth_of_understanding\": \"Selecting cystoscopy with biopsy requires understanding the diagnostic pathway for bladder tumors, including the limitations of imaging and cytology alone, and the necessity of tissue diagnosis.\", \"prevention_of_guesswork\": \"The answer is well-aligned with the context and clinical reasoning, and the distractors are plausible but less appropriate, reducing the likelihood of guessing.\"}, \"correct_answer_score\": \"9/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are not fully consistent in format with the correct answer. The correct answer is a procedure with a specific action (cystoscopy with biopsy), while distractors include imaging (Pelvic MRI), a follow-up test (repeat urine cytology), an outdated imaging modality (IVP), and a treatment (empiric intravesical chemotherapy). They should all be diagnostic steps or procedures for better alignment. Score: 3/5.",
+      "length": "The distractors are of similar length to the correct answer, with most being concise phrases. However, 'Empiric intravesical chemotherapy without tissue diagnosis' is longer and more complex than the others. Score: 4/5.",
+      "relation": "All distractors are related to the diagnostic workup or management of bladder masses, which is appropriate. Score: 5/5.",
+      "variation": "There is good variation among the distractors: imaging, repeat cytology, outdated imaging, and empiric treatment. They are distinct from each other and from the correct answer. Score: 5/5.",
+      "plausibility": "All distractors are plausible options that a clinician might consider in the context of a bladder mass, though some (like empiric chemotherapy) are less likely without tissue diagnosis. Score: 4/5.",
+      "differentiation": "The correct answer (cystoscopy with biopsy) clearly stands out as the gold standard for diagnosis, while the distractors are less definitive or inappropriate as next steps. Score: 5/5.",
+      "common_mistakes": "The distractors align well with common misconceptions: over-reliance on imaging, repeating cytology, using outdated tests, or starting treatment without diagnosis. Score: 5/5."
+     },
+     "distractor_options_score": "31/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are not fully consistent in format with the correct answer. The correct answer is a procedure with a specific action (cystoscopy with biopsy), while distractors include imaging (Pelvic MRI), a follow-up test (repeat urine cytology), an outdated imaging modality (IVP), and a treatment (empiric intravesical chemotherapy). They should all be diagnostic steps or procedures for better alignment. Score: 3/5.\", \"length\": \"The distractors are of similar length to the correct answer, with most being concise phrases. However, 'Empiric intravesical chemotherapy without tissue diagnosis' is longer and more complex than the others. Score: 4/5.\", \"relation\": \"All distractors are related to the diagnostic workup or management of bladder masses, which is appropriate. Score: 5/5.\", \"variation\": \"There is good variation among the distractors: imaging, repeat cytology, outdated imaging, and empiric treatment. They are distinct from each other and from the correct answer. Score: 5/5.\", \"plausibility\": \"All distractors are plausible options that a clinician might consider in the context of a bladder mass, though some (like empiric chemotherapy) are less likely without tissue diagnosis. Score: 4/5.\", \"differentiation\": \"The correct answer (cystoscopy with biopsy) clearly stands out as the gold standard for diagnosis, while the distractors are less definitive or inappropriate as next steps. Score: 5/5.\", \"common_mistakes\": \"The distractors align well with common misconceptions: over-reliance on imaging, repeating cytology, using outdated tests, or starting treatment without diagnosis. Score: 5/5.\"}, \"distractor_options_score\": \"31/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5. The attempted answer is exactly the same as the correct answer: 'Cystoscopy with biopsy.'",
+      "logical_flow": "5/5. The reasoning follows a clear and logical sequence: it starts with the findings (vascular mass on ultrasound, suspicious cytology), explains why these suggest a bladder tumor, and then justifies why cystoscopy with biopsy is the definitive next step. Each subsequent point builds on the previous one.",
+      "evidence_based_reasoning": "5/5. The answer is well-supported by evidence from the clinical context: the presence of a mass on imaging and atypical cells on cytology. The explanation references the need for direct visualization and histopathological confirmation, which is standard of care.",
+      "consideration_of_options": "5/5. The reasoning systematically evaluates each distractor option, providing clear evidence for why each is less appropriate than cystoscopy with biopsy. This demonstrates critical evaluation and a systematic elimination process."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5. The attempted answer is exactly the same as the correct answer: 'Cystoscopy with biopsy.'\",\n    \"logical_flow\": \"5/5. The reasoning follows a clear and logical sequence: it starts with the findings (vascular mass on ultrasound, suspicious cytology), explains why these suggest a bladder tumor, and then justifies why cystoscopy with biopsy is the definitive next step. Each subsequent point builds on the previous one.\",\n    \"evidence_based_reasoning\": \"5/5. The answer is well-supported by evidence from the clinical context: the presence of a mass on imaging and atypical cells on cytology. The explanation references the need for direct visualization and histopathological confirmation, which is standard of care.\",\n    \"consideration_of_options\": \"5/5. The reasoning systematically evaluates each distractor option, providing clear evidence for why each is less appropriate than cystoscopy with biopsy. This demonstrates critical evaluation and a systematic elimination process.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 0.9,
+      "question": 1.0,
+      "correct_answer": 0.9,
+      "distractor_options": 0.8857142857142857,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old woman with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago underwent routine follow-up imaging. A CT scan suggested a possible ovarian tumor, but transvaginal ultrasound identified a vascular mass within the bladder mucosa. Although she had no urinary symptoms, urine cytology revealed atypical cells suspicious for malignancy. To establish a definitive diagnosis and guide treatment, further evaluation of the bladder lesion is required.\n\nQuestion:  \nWhat is the most appropriate next diagnostic step to confirm the nature of the bladder mucosal mass in this patient?\n\nCorrect answer:  \nCystoscopy with biopsy\n\nDistractor options:  \na) Pelvic MRI without cystoscopy  \nb) Repeat urine cytology in 6 weeks  \nc) Intravenous pyelogram (IVP)  \nd) Empiric intravesical chemotherapy without tissue diagnosis",
+     "context": "A 68-year-old woman with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago underwent routine follow-up imaging. A CT scan suggested a possible ovarian tumor, but transvaginal ultrasound identified a vascular mass within the bladder mucosa. Although she had no urinary symptoms, urine cytology revealed atypical cells suspicious for malignancy. To establish a definitive diagnosis and guide treatment, further evaluation of the bladder lesion is required.",
+     "question": "What is the most appropriate next diagnostic step to confirm the nature of the bladder mucosal mass in this patient?",
+     "correct_answer": "Cystoscopy with biopsy",
+     "distractor_options": [
+      "Pelvic MRI without cystoscopy",
+      "Repeat urine cytology in 6 weeks",
+      "Intravenous pyelogram (IVP)",
+      "Empiric intravesical chemotherapy without tissue diagnosis"
+     ],
+     "distractor": {
+      "answer_index": "E",
+      "options": [
+       "A: Empiric intravesical chemotherapy without tissue diagnosis",
+       "B: Repeat urine cytology in 6 weeks",
+       "C: Intravenous pyelogram (IVP)",
+       "D: Pelvic MRI without cystoscopy",
+       "E: Cystoscopy with biopsy"
+      ],
+      "distractor_lst": [
+       "Pelvic MRI without cystoscopy",
+       "Repeat urine cytology in 6 weeks",
+       "Intravenous pyelogram (IVP)",
+       "Empiric intravesical chemotherapy without tissue diagnosis"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Cystoscopy with biopsy",
+     "reasoning": "The patient has a vascular bladder mucosal mass identified on transvaginal ultrasound and atypical cells suspicious for malignancy on urine cytology. Although she is asymptomatic, the presence of suspicious cytology and imaging findings necessitates direct visualization and histologic confirmation to establish a definitive diagnosis. Cystoscopy allows for direct inspection of the bladder mucosa and targeted biopsy of the lesion, which is essential for accurate diagnosis and appropriate treatment planning. Empiric intravesical chemotherapy (A) without tissue diagnosis is inappropriate because treatment should be guided by histopathology. Repeat urine cytology (B) delays diagnosis and may miss early intervention opportunities. Intravenous pyelogram (C) is outdated and does not provide tissue diagnosis. Pelvic MRI (D) can provide additional imaging detail but cannot replace cystoscopy and biopsy for definitive diagnosis. Therefore, cystoscopy with biopsy is the most appropriate next step.",
+     "reasoning_answer_response": "Correct answer: Cystoscopy with biopsy\n\nReasoning: The patient has a vascular bladder mucosal mass identified on transvaginal ultrasound and atypical cells suspicious for malignancy on urine cytology. Although she is asymptomatic, the presence of suspicious cytology and imaging findings necessitates direct visualization and histologic confirmation to establish a definitive diagnosis. Cystoscopy allows for direct inspection of the bladder mucosa and targeted biopsy of the lesion, which is essential for accurate diagnosis and appropriate treatment planning. Empiric intravesical chemotherapy (A) without tissue diagnosis is inappropriate because treatment should be guided by histopathology. Repeat urine cytology (B) delays diagnosis and may miss early intervention opportunities. Intravenous pyelogram (C) is outdated and does not provide tissue diagnosis. Pelvic MRI (D) can provide additional imaging detail but cannot replace cystoscopy and biopsy for definitive diagnosis. Therefore, cystoscopy with biopsy is the most appropriate next step."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is relevant to the topic, focusing on the diagnostic evaluation of a bladder mass in a patient with a history of malignancy.",
+      "concision": "The context is concise, summarizing the key clinical findings and diagnostic dilemma without extraneous detail.",
+      "coherent": "The context is coherent and logically leads up to the question about the next diagnostic step.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and workup.",
+      "specific": "The context is specific, highlighting the relevant findings (imaging, cytology) that necessitate further diagnostic evaluation.",
+      "fluent": "The context is fluent, with clear grammar and logical flow.",
+      "clueing": "The context provides clues (vascular mass, atypical cells) rather than directly stating the diagnosis, appropriately guiding the test taker.",
+      "completeness": "The context is complete, providing all necessary information to answer the question without ambiguity.",
+      "misdirection": "The context avoids misdirection and does not include misleading information."
+     },
+     "context_score": "36/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is relevant to the topic, focusing on the diagnostic evaluation of a bladder mass in a patient with a history of malignancy.\", \"concision\": \"The context is concise, summarizing the key clinical findings and diagnostic dilemma without extraneous detail.\", \"coherent\": \"The context is coherent and logically leads up to the question about the next diagnostic step.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and workup.\", \"specific\": \"The context is specific, highlighting the relevant findings (imaging, cytology) that necessitate further diagnostic evaluation.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow.\", \"clueing\": \"The context provides clues (vascular mass, atypical cells) rather than directly stating the diagnosis, appropriately guiding the test taker.\", \"completeness\": \"The context is complete, providing all necessary information to answer the question without ambiguity.\", \"misdirection\": \"The context avoids misdirection and does not include misleading information.\"}, \"context_score\": \"36/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context, which describes the sequence of diagnostic findings and the need for definitive diagnosis of a bladder mass.",
+      "clear": "The question is clear and unambiguous, specifically asking for the most appropriate next diagnostic step.",
+      "concluding": "The flow from the context to the question is logical and organic, as the context builds up to the need for a definitive diagnostic procedure.",
+      "difficulty": "The question is moderately challenging, requiring knowledge of the diagnostic approach to bladder masses and the limitations of other options.",
+      "clarity": "The question is clear and unambiguous, avoiding any wording that could lead to misinterpretation."
+     },
+     "question_score": "19/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context, which describes the sequence of diagnostic findings and the need for definitive diagnosis of a bladder mass.\", \"clear\": \"The question is clear and unambiguous, specifically asking for the most appropriate next diagnostic step.\", \"concluding\": \"The flow from the context to the question is logical and organic, as the context builds up to the need for a definitive diagnostic procedure.\", \"difficulty\": \"The question is moderately challenging, requiring knowledge of the diagnostic approach to bladder masses and the limitations of other options.\", \"clarity\": \"The question is clear and unambiguous, avoiding any wording that could lead to misinterpretation.\"}, \"question_score\": \"19/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Cystoscopy) and is the most appropriate diagnostic study for a bladder mucosal mass, as required by the question.",
+      "occurrence": "The term 'cystoscopy' is mentioned in the context, but not as a direct answer to the question. However, its presence in the context makes the answer somewhat more apparent, though not as explicit as in some cases.",
+      "justification": "The answer is logically supported by the context: the patient has a suspicious bladder mass and atypical urine cytology, and cystoscopy with biopsy is the gold standard for diagnosis in this scenario.",
+      "depth_of_understanding": "Selecting cystoscopy with biopsy requires understanding the diagnostic pathway for bladder tumors, the limitations of imaging and cytology, and the need for histopathological confirmation. This demonstrates a nuanced grasp of urologic oncology workup.",
+      "prevention_of_guesswork": "The answer is specific and contextually appropriate, reducing the likelihood of guessing. The distractors are plausible but less appropriate, and the answer aligns with standard clinical practice."
+     },
+     "correct_answer_score": "9/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Cystoscopy with biopsy,' is directly related to the keypoint (Cystoscopy) and is the most appropriate diagnostic study for a bladder mucosal mass, as required by the question.\", \"occurrence\": \"The term 'cystoscopy' is mentioned in the context, but not as a direct answer to the question. However, its presence in the context makes the answer somewhat more apparent, though not as explicit as in some cases.\", \"justification\": \"The answer is logically supported by the context: the patient has a suspicious bladder mass and atypical urine cytology, and cystoscopy with biopsy is the gold standard for diagnosis in this scenario.\", \"depth_of_understanding\": \"Selecting cystoscopy with biopsy requires understanding the diagnostic pathway for bladder tumors, the limitations of imaging and cytology, and the need for histopathological confirmation. This demonstrates a nuanced grasp of urologic oncology workup.\", \"prevention_of_guesswork\": \"The answer is specific and contextually appropriate, reducing the likelihood of guessing. The distractors are plausible but less appropriate, and the answer aligns with standard clinical practice.\"}, \"correct_answer_score\": \"9/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are not fully consistent in format with the correct answer. The correct answer is a procedure ('Cystoscopy with biopsy'), while distractors include imaging (Pelvic MRI), a follow-up test (repeat urine cytology), a treatment (empiric intravesical chemotherapy), and an outdated imaging study (IVP). They should all be diagnostic steps or procedures for better alignment. Score: 3/5.",
+      "length": "The distractors are of similar length to the correct answer, with most being concise phrases. Score: 4/5.",
+      "relation": "All distractors are related to diagnostic or management steps in the context of a bladder mass, which is appropriate. Score: 5/5.",
+      "variation": "The distractors are distinct from each other and from the correct answer, covering a range of possible next steps (imaging, cytology, treatment, outdated imaging). Score: 5/5.",
+      "plausibility": "Each distractor is plausible in the context of a bladder mass workup, though some (like empiric chemotherapy) are less likely without tissue diagnosis. Score: 4/5.",
+      "differentiation": "The correct answer clearly stands out as the best next step, but the distractors are close enough to require critical thinking. Score: 5/5.",
+      "common_mistakes": "The distractors reflect common misconceptions (e.g., relying on imaging alone, repeating cytology, or starting treatment without diagnosis), which tests understanding. Score: 5/5."
+     },
+     "distractor_options_score": "31/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are not fully consistent in format with the correct answer. The correct answer is a procedure ('Cystoscopy with biopsy'), while distractors include imaging (Pelvic MRI), a follow-up test (repeat urine cytology), a treatment (empiric intravesical chemotherapy), and an outdated imaging study (IVP). They should all be diagnostic steps or procedures for better alignment. Score: 3/5.\", \"length\": \"The distractors are of similar length to the correct answer, with most being concise phrases. Score: 4/5.\", \"relation\": \"All distractors are related to diagnostic or management steps in the context of a bladder mass, which is appropriate. Score: 5/5.\", \"variation\": \"The distractors are distinct from each other and from the correct answer, covering a range of possible next steps (imaging, cytology, treatment, outdated imaging). Score: 5/5.\", \"plausibility\": \"Each distractor is plausible in the context of a bladder mass workup, though some (like empiric chemotherapy) are less likely without tissue diagnosis. Score: 4/5.\", \"differentiation\": \"The correct answer clearly stands out as the best next step, but the distractors are close enough to require critical thinking. Score: 5/5.\", \"common_mistakes\": \"The distractors reflect common misconceptions (e.g., relying on imaging alone, repeating cytology, or starting treatment without diagnosis), which tests understanding. Score: 5/5.\"}, \"distractor_options_score\": \"31/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5. The attempted answer is exactly the same as the correct answer ('Cystoscopy with biopsy'), so full points are awarded.",
+      "logical_flow": "5/5. The reasoning follows a clear and logical sequence: it starts with the clinical findings (vascular bladder mass, suspicious cytology), explains the need for direct visualization and histologic confirmation, and then justifies why cystoscopy with biopsy is necessary. Each step builds upon the previous one, making the argument easy to follow.",
+      "evidence_based_reasoning": "5/5. The answer is well-supported by evidence from the context: the presence of a suspicious mass on imaging and atypical cells on cytology both indicate the need for tissue diagnosis. The explanation references the importance of histopathology for diagnosis and treatment planning, which is standard clinical practice.",
+      "consideration_of_options": "5/5. The reasoning systematically evaluates each distractor option, providing clear evidence for why each is less appropriate than cystoscopy with biopsy. The rationale for rejecting empiric therapy, repeat cytology, IVP, and MRI is explicitly stated and supported by clinical reasoning."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5. The attempted answer is exactly the same as the correct answer ('Cystoscopy with biopsy'), so full points are awarded.\",\n    \"logical_flow\": \"5/5. The reasoning follows a clear and logical sequence: it starts with the clinical findings (vascular bladder mass, suspicious cytology), explains the need for direct visualization and histologic confirmation, and then justifies why cystoscopy with biopsy is necessary. Each step builds upon the previous one, making the argument easy to follow.\",\n    \"evidence_based_reasoning\": \"5/5. The answer is well-supported by evidence from the context: the presence of a suspicious mass on imaging and atypical cells on cytology both indicate the need for tissue diagnosis. The explanation references the importance of histopathology for diagnosis and treatment planning, which is standard clinical practice.\",\n    \"consideration_of_options\": \"5/5. The reasoning systematically evaluates each distractor option, providing clear evidence for why each is less appropriate than cystoscopy with biopsy. The rationale for rejecting empiric therapy, repeat cytology, IVP, and MRI is explicitly stated and supported by clinical reasoning.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 0.9,
+      "question": 0.95,
+      "correct_answer": 0.9,
+      "distractor_options": 0.8857142857142857,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   }
+  ]
+ },
+ {
+  "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+  "topic": "select most likely diagnosis",
+  "keypoint": "Non-muscle invasive bladder tumor",
+  "response": [
+   {
+    "qgen_in": {
+     "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+     "topic": "select most likely diagnosis",
+     "keypoint": "Non-muscle invasive bladder tumor"
+    }
+   },
+   {
+    "qgen_out": {
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years prior was found on routine postoperative CT to have a suspected ovarian tumor. Transvaginal ultrasound revealed a mass with abundant internal blood flow in the bladder mucosa. Despite the absence of urinary symptoms, urine cytology showed dysmorphic cells suggestive of malignancy. Cystoscopy identified a stalked papillary tumor at the apex of the posterior bladder wall. Transurethral resection of the bladder tumor was performed, removing a 2-cm papillary lesion. Pathology confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and no recurrence was observed at three months. Postoperative CT has not yet been conducted.",
+     "question": "What is the most likely diagnosis for a patient with a stalked papillary tumor in the bladder mucosa confirmed as a non-muscle-invasive transitional cell carcinoma?",
+     "correct_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "distractor_options": [
+      "Squamous cell carcinoma of the bladder",
+      "Adenocarcinoma of the bladder",
+      "Small cell carcinoma of the bladder",
+      "Invasive urothelial carcinoma (muscle-invasive)",
+      "Metastatic ovarian carcinoma involving the bladder"
+     ],
+     "distractor": {
+      "answer_index": "E",
+      "options": [
+       "A: Adenocarcinoma of the bladder",
+       "B: Small cell carcinoma of the bladder",
+       "C: Invasive urothelial carcinoma (muscle-invasive)",
+       "D: Metastatic ovarian carcinoma involving the bladder",
+       "E: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+       "F: Squamous cell carcinoma of the bladder"
+      ],
+      "distractor_row": "Distractor options:  \nA: Squamous cell carcinoma of the bladder  \nB: Adenocarcinoma of the bladder  \nC: Small cell carcinoma of the bladder  \nD: Invasive urothelial carcinoma (muscle-invasive)  \nE: Metastatic ovarian carcinoma involving the bladder",
+      "distractor_lst": [
+       "Squamous cell carcinoma of the bladder",
+       "Adenocarcinoma of the bladder",
+       "Small cell carcinoma of the bladder",
+       "Invasive urothelial carcinoma (muscle-invasive)",
+       "Metastatic ovarian carcinoma involving the bladder"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "reasoning": "The patient's cystoscopic finding of a stalked papillary tumor in the bladder mucosa, along with pathology confirming a non-muscle-invasive transitional cell carcinoma (stage 0a), is characteristic of a non-muscle-invasive papillary urothelial carcinoma. This tumor type typically presents as a papillary lesion confined to the urothelium without invasion into the muscularis propria, corresponding to stage 0a (carcinoma in situ or papillary non-invasive carcinoma). The presence of abundant internal blood flow on ultrasound and dysmorphic malignant cells in urine cytology further supports urothelial carcinoma. Adenocarcinoma (A) and squamous cell carcinoma (F) of the bladder are less common and usually present with different histology and clinical features. Small cell carcinoma (B) is a rare, aggressive neuroendocrine tumor with a different clinical course. Invasive urothelial carcinoma (C) involves muscle invasion, which is not present here. Metastatic ovarian carcinoma (D) involving the bladder is unlikely given the pathology and clinical context. Therefore, the diagnosis best fits non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+     "reasoning_answer_response": "Correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)\n\nReasoning: The patient's cystoscopic finding of a stalked papillary tumor in the bladder mucosa, along with pathology confirming a non-muscle-invasive transitional cell carcinoma (stage 0a), is characteristic of a non-muscle-invasive papillary urothelial carcinoma. This tumor type typically presents as a papillary lesion confined to the urothelium without invasion into the muscularis propria, corresponding to stage 0a (carcinoma in situ or papillary non-invasive carcinoma). The presence of abundant internal blood flow on ultrasound and dysmorphic malignant cells in urine cytology further supports urothelial carcinoma. Adenocarcinoma (A) and squamous cell carcinoma (F) of the bladder are less common and usually present with different histology and clinical features. Small cell carcinoma (B) is a rare, aggressive neuroendocrine tumor with a different clinical course. Invasive urothelial carcinoma (C) involves muscle invasion, which is not present here. Metastatic ovarian carcinoma (D) involving the bladder is unlikely given the pathology and clinical context. Therefore, the diagnosis best fits non-muscle-invasive papillary urothelial carcinoma (stage 0a)."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic, focusing on the diagnostic process and findings leading to the diagnosis of a non-muscle-invasive bladder tumor.",
+      "concision": "The context is concise, summarizing the key clinical events and findings without unnecessary detail or repetition.",
+      "coherent": "The context is coherent, logically presenting the sequence of clinical findings and interventions that lead up to the question.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's history, findings, and diagnosis.",
+      "specific": "The context is specific, directly addressing the diagnostic process and findings relevant to the most likely diagnosis.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides appropriate clues (papillary tumor, non-muscle-invasive, transitional cell carcinoma) without directly stating the answer, allowing for clinical reasoning.",
+      "completeness": "The context is complete, including all necessary information for the test taker to arrive at the correct diagnosis without ambiguity.",
+      "misdirection": "The context avoids misdirection, presenting the facts clearly and logically without misleading information."
+     },
+     "context_score": "36/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic, focusing on the diagnostic process and findings leading to the diagnosis of a non-muscle-invasive bladder tumor.\", \"concision\": \"The context is concise, summarizing the key clinical events and findings without unnecessary detail or repetition.\", \"coherent\": \"The context is coherent, logically presenting the sequence of clinical findings and interventions that lead up to the question.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's history, findings, and diagnosis.\", \"specific\": \"The context is specific, directly addressing the diagnostic process and findings relevant to the most likely diagnosis.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides appropriate clues (papillary tumor, non-muscle-invasive, transitional cell carcinoma) without directly stating the answer, allowing for clinical reasoning.\", \"completeness\": \"The context is complete, including all necessary information for the test taker to arrive at the correct diagnosis without ambiguity.\", \"misdirection\": \"The context avoids misdirection, presenting the facts clearly and logically without misleading information.\"}, \"context_score\": \"36/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context, which provides detailed clinical, imaging, and pathological findings leading to the diagnosis. Score: 5/5.",
+      "clear": "The question is clear and unambiguous, specifically asking for the most likely diagnosis based on the provided findings. Score: 5/5.",
+      "concluding": "The flow from the context to the question is logical and seamless, as the clinical scenario builds up to the diagnostic question. Score: 5/5.",
+      "difficulty": "The question is moderately challenging, requiring integration of clinical, imaging, and pathological data, but is not overly difficult given the explicit information. Score: 4/5.",
+      "clarity": "The question is phrased clearly and is unlikely to be misinterpreted. Score: 5/5."
+     },
+     "question_score": "24/25",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context, which provides detailed clinical, imaging, and pathological findings leading to the diagnosis. Score: 5/5.\", \"clear\": \"The question is clear and unambiguous, specifically asking for the most likely diagnosis based on the provided findings. Score: 5/5.\", \"concluding\": \"The flow from the context to the question is logical and seamless, as the clinical scenario builds up to the diagnostic question. Score: 5/5.\", \"difficulty\": \"The question is moderately challenging, requiring integration of clinical, imaging, and pathological data, but is not overly difficult given the explicit information. Score: 4/5.\", \"clarity\": \"The question is phrased clearly and is unlikely to be misinterpreted. Score: 5/5.\"}, \"question_score\": \"24/25\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "occurrence": "The correct answer is explicitly stated in the context and pathology report, making it very apparent to the test taker.",
+      "justification": "The correct answer is fully supported by the clinical findings: cystoscopic appearance, pathology confirming non-muscle-invasive transitional cell carcinoma, and absence of muscle invasion. The reasoning provided is thorough and logically follows from the data.",
+      "depth_of_understanding": "The answer requires understanding of bladder tumor staging, histopathology, and the distinction between non-muscle-invasive and muscle-invasive disease. The reasoning demonstrates this nuanced understanding.",
+      "prevention_of_guesswork": "Because the answer is directly stated in the context, it does not effectively prevent guesswork. A test taker could answer correctly without deep analysis, as the diagnosis is given in the pathology report."
+     },
+     "correct_answer_score": "8/10",
+     "correct_answer_response_row": "{\n  \"correct_answer_feedback\": {\n    \"relevant\": \"The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).\",\n    \"occurrence\": \"The correct answer is explicitly stated in the context and pathology report, making it very apparent to the test taker.\",\n    \"justification\": \"The correct answer is fully supported by the clinical findings: cystoscopic appearance, pathology confirming non-muscle-invasive transitional cell carcinoma, and absence of muscle invasion. The reasoning provided is thorough and logically follows from the data.\",\n    \"depth_of_understanding\": \"The answer requires understanding of bladder tumor staging, histopathology, and the distinction between non-muscle-invasive and muscle-invasive disease. The reasoning demonstrates this nuanced understanding.\",\n    \"prevention_of_guesswork\": \"Because the answer is directly stated in the context, it does not effectively prevent guesswork. A test taker could answer correctly without deep analysis, as the diagnosis is given in the pathology report.\"\n  },\n  \"correct_answer_score\": \"8/10\"\n}",
+     "distractor_options_feedback": {
+      "format": "The distractors are all in the format of a specific cancer type or diagnosis, matching the style of the correct answer. However, the correct answer includes a stage (stage 0a), while the distractors do not specify stage or invasiveness (except D, which mentions muscle-invasive). This could be more standardized. Score: 4/5.",
+      "length": "The distractors are generally similar in length to the correct answer, though the correct answer is slightly longer due to the inclusion of 'stage 0a.' Most distractors are concise, but option D is longer and more descriptive, which helps balance the set. Score: 4/5.",
+      "relation": "All distractors are related to the correct answer as they are all types of bladder or pelvic malignancies, which is appropriate for the context. Score: 5/5.",
+      "variation": "The distractors are distinct from each other and from the correct answer, representing different histological types or origins of bladder tumors. Score: 5/5.",
+      "plausibility": "Each distractor is plausible in the context of a bladder mass, especially for someone unfamiliar with the specific pathology. They challenge the test-taker to differentiate based on subtle clinical and pathological clues. Score: 5/5.",
+      "differentiation": "The correct answer clearly outshines the distractors based on the provided clinical and pathological information. The distractors are distinct and do not overlap with the correct answer. Score: 5/5.",
+      "common_mistakes": "The distractors align well with common misconceptions, such as confusing different histological types of bladder cancer or mistaking metastatic disease for primary bladder pathology. Score: 5/5."
+     },
+     "distractor_options_score": "33/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are all in the format of a specific cancer type or diagnosis, matching the style of the correct answer. However, the correct answer includes a stage (stage 0a), while the distractors do not specify stage or invasiveness (except D, which mentions muscle-invasive). This could be more standardized. Score: 4/5.\", \"length\": \"The distractors are generally similar in length to the correct answer, though the correct answer is slightly longer due to the inclusion of 'stage 0a.' Most distractors are concise, but option D is longer and more descriptive, which helps balance the set. Score: 4/5.\", \"relation\": \"All distractors are related to the correct answer as they are all types of bladder or pelvic malignancies, which is appropriate for the context. Score: 5/5.\", \"variation\": \"The distractors are distinct from each other and from the correct answer, representing different histological types or origins of bladder tumors. Score: 5/5.\", \"plausibility\": \"Each distractor is plausible in the context of a bladder mass, especially for someone unfamiliar with the specific pathology. They challenge the test-taker to differentiate based on subtle clinical and pathological clues. Score: 5/5.\", \"differentiation\": \"The correct answer clearly outshines the distractors based on the provided clinical and pathological information. The distractors are distinct and do not overlap with the correct answer. Score: 5/5.\", \"common_mistakes\": \"The distractors align well with common misconceptions, such as confusing different histological types of bladder cancer or mistaking metastatic disease for primary bladder pathology. Score: 5/5.\"}, \"distractor_options_score\": \"33/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "logical_flow": "5/5 - The reasoning follows a clear and logical sequence: it starts with the clinical findings, integrates imaging and pathology, and systematically matches these to the diagnosis.",
+      "evidence_based_reasoning": "5/5 - The answer is well-supported by evidence from the context, including cystoscopic findings, pathology, imaging, and cytology, all of which are referenced to justify the diagnosis.",
+      "consideration_of_options": "5/5 - The reasoning explicitly considers and rules out each distractor option with supporting evidence, demonstrating a systematic and critical evaluation of alternatives."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).\",\n    \"logical_flow\": \"5/5 - The reasoning follows a clear and logical sequence: it starts with the clinical findings, integrates imaging and pathology, and systematically matches these to the diagnosis.\",\n    \"evidence_based_reasoning\": \"5/5 - The answer is well-supported by evidence from the context, including cystoscopic findings, pathology, imaging, and cytology, all of which are referenced to justify the diagnosis.\",\n    \"consideration_of_options\": \"5/5 - The reasoning explicitly considers and rules out each distractor option with supporting evidence, demonstrating a systematic and critical evaluation of alternatives.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 0.9,
+      "question": 0.96,
+      "correct_answer": 0.8,
+      "distractor_options": 0.9428571428571428,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found on routine follow-up CT to have a suspected pelvic mass. Transvaginal ultrasound revealed a vascularized mass within the bladder mucosa. Although asymptomatic, urine cytology showed atypical dysmorphic cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor at the apex of the posterior bladder wall. The lesion was resected via transurethral resection, and pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). The patient subsequently received intravesical chemotherapy, and no recurrence was noted at three months.\n\nQuestion:  \nBased on the clinical, imaging, and pathological findings, what is the most likely diagnosis for this patient’s bladder lesion?\n\nCorrect answer:  \nNon-muscle-invasive papillary urothelial carcinoma (stage 0a)\n\nDistractor options:  \na) Squamous cell carcinoma of the bladder  \nb) Adenocarcinoma of the bladder  \nc) Small cell carcinoma of the bladder  \nd) Muscle-invasive urothelial carcinoma  \ne) Metastatic ovarian carcinoma involving the bladder",
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found on routine follow-up CT to have a suspected pelvic mass. Transvaginal ultrasound revealed a vascularized mass within the bladder mucosa. Although asymptomatic, urine cytology showed atypical dysmorphic cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor at the apex of the posterior bladder wall. The lesion was resected via transurethral resection, and pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). The patient subsequently received intravesical chemotherapy, and no recurrence was noted at three months.",
+     "question": "Based on the clinical, imaging, and pathological findings, what is the most likely diagnosis for this patient’s bladder lesion?",
+     "correct_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "distractor_options": [
+      "Squamous cell carcinoma of the bladder",
+      "Adenocarcinoma of the bladder",
+      "Small cell carcinoma of the bladder",
+      "Muscle-invasive urothelial carcinoma",
+      "Metastatic ovarian carcinoma involving the bladder"
+     ],
+     "distractor": {
+      "answer_index": "E",
+      "options": [
+       "A: Adenocarcinoma of the bladder",
+       "B: Muscle-invasive urothelial carcinoma",
+       "C: Small cell carcinoma of the bladder",
+       "D: Squamous cell carcinoma of the bladder",
+       "E: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+       "F: Metastatic ovarian carcinoma involving the bladder"
+      ],
+      "distractor_lst": [
+       "Squamous cell carcinoma of the bladder",
+       "Adenocarcinoma of the bladder",
+       "Small cell carcinoma of the bladder",
+       "Muscle-invasive urothelial carcinoma",
+       "Metastatic ovarian carcinoma involving the bladder"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "reasoning": "The patient's bladder lesion is described as a 2-cm stalked papillary tumor located on the posterior bladder wall, which was resected transurethrally. Pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). This diagnosis aligns with the clinical presentation of an asymptomatic vascularized papillary lesion detected on imaging and cystoscopy, along with atypical dysmorphic cells on urine cytology. Non-muscle-invasive papillary urothelial carcinoma typically presents as papillary tumors confined to the mucosa without invasion into the muscularis propria, corresponding to stage 0a. The absence of muscle invasion and the successful treatment with intravesical chemotherapy further support this diagnosis. Other options are less consistent: (A) adenocarcinoma of the bladder is rare and usually arises from urachal remnants or metaplasia; (B) muscle-invasive urothelial carcinoma would show invasion into the muscularis propria, which is not the case here; (C) small cell carcinoma is a rare, aggressive neuroendocrine tumor with different histology; (D) squamous cell carcinoma is associated with chronic irritation and keratinizing histology; (F) metastatic ovarian carcinoma involving the bladder would typically present with a different clinical history and histopathology. Therefore, the most appropriate diagnosis is (E) non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+     "reasoning_answer_response": "Correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)\n\nReasoning: The patient's bladder lesion is described as a 2-cm stalked papillary tumor located on the posterior bladder wall, which was resected transurethrally. Pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). This diagnosis aligns with the clinical presentation of an asymptomatic vascularized papillary lesion detected on imaging and cystoscopy, along with atypical dysmorphic cells on urine cytology. Non-muscle-invasive papillary urothelial carcinoma typically presents as papillary tumors confined to the mucosa without invasion into the muscularis propria, corresponding to stage 0a. The absence of muscle invasion and the successful treatment with intravesical chemotherapy further support this diagnosis. Other options are less consistent: (A) adenocarcinoma of the bladder is rare and usually arises from urachal remnants or metaplasia; (B) muscle-invasive urothelial carcinoma would show invasion into the muscularis propria, which is not the case here; (C) small cell carcinoma is a rare, aggressive neuroendocrine tumor with different histology; (D) squamous cell carcinoma is associated with chronic irritation and keratinizing histology; (F) metastatic ovarian carcinoma involving the bladder would typically present with a different clinical history and histopathology. Therefore, the most appropriate diagnosis is (E) non-muscle-invasive papillary urothelial carcinoma (stage 0a)."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic of selecting the most likely diagnosis for a bladder lesion, as it provides focused clinical, imaging, and pathological details directly related to the bladder mass.",
+      "concision": "The context is concise, summarizing the key findings from the clinical note without extraneous information. It avoids unnecessary details about unrelated medical history.",
+      "coherent": "The context is coherent and logically structured, presenting the sequence of findings and interventions that lead up to the question.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation, workup, and pathology.",
+      "specific": "The context is specific, focusing on the bladder lesion and providing details that are directly pertinent to the diagnosis.",
+      "fluent": "The context is fluent, with clear grammar and a logical flow of ideas.",
+      "clueing": "The context provides clues through symptoms, imaging, and pathology rather than directly stating the diagnosis, allowing for reasoning to reach the answer.",
+      "completeness": "The context is complete, including all necessary information (clinical, imaging, cytology, cystoscopy, pathology) to answer the question without ambiguity.",
+      "misdirection": "There is no misdirection; the context is straightforward and does not include misleading information."
+     },
+     "context_score": "40/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic of selecting the most likely diagnosis for a bladder lesion, as it provides focused clinical, imaging, and pathological details directly related to the bladder mass.\", \"concision\": \"The context is concise, summarizing the key findings from the clinical note without extraneous information. It avoids unnecessary details about unrelated medical history.\", \"coherent\": \"The context is coherent and logically structured, presenting the sequence of findings and interventions that lead up to the question.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation, workup, and pathology.\", \"specific\": \"The context is specific, focusing on the bladder lesion and providing details that are directly pertinent to the diagnosis.\", \"fluent\": \"The context is fluent, with clear grammar and a logical flow of ideas.\", \"clueing\": \"The context provides clues through symptoms, imaging, and pathology rather than directly stating the diagnosis, allowing for reasoning to reach the answer.\", \"completeness\": \"The context is complete, including all necessary information (clinical, imaging, cytology, cystoscopy, pathology) to answer the question without ambiguity.\", \"misdirection\": \"There is no misdirection; the context is straightforward and does not include misleading information.\"}, \"context_score\": \"40/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the provided context, which details the clinical, imaging, and pathological findings leading to the diagnosis. The information is sufficient and not abrupt.",
+      "clear": "The question is clear and unambiguous, asking specifically for the most likely diagnosis based on the described findings.",
+      "concluding": "The flow from the context to the question is logical and seamless. The context builds up the clinical scenario and the question naturally follows.",
+      "difficulty": "The question is of moderate difficulty. While the answer is explicitly stated in the context, the inclusion of distractors requires the test-taker to synthesize the clinical, imaging, and pathological data to select the correct diagnosis.",
+      "clarity": "The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation."
+     },
+     "question_score": "20/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the provided context, which details the clinical, imaging, and pathological findings leading to the diagnosis. The information is sufficient and not abrupt.\", \"clear\": \"The question is clear and unambiguous, asking specifically for the most likely diagnosis based on the described findings.\", \"concluding\": \"The flow from the context to the question is logical and seamless. The context builds up the clinical scenario and the question naturally follows.\", \"difficulty\": \"The question is of moderate difficulty. While the answer is explicitly stated in the context, the inclusion of distractors requires the test-taker to synthesize the clinical, imaging, and pathological data to select the correct diagnosis.\", \"clarity\": \"The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation.\"}, \"question_score\": \"20/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "occurrence": "The correct answer is explicitly stated in the context and pathology report, making it very apparent to the test taker.",
+      "justification": "The answer is fully supported by the clinical, imaging, and pathological findings provided in the context. The reasoning is logical and directly references the evidence in the case.",
+      "depth_of_understanding": "The answer requires understanding of bladder tumor staging, histopathology, and the distinction between muscle-invasive and non-muscle-invasive disease, demonstrating nuanced clinical knowledge.",
+      "prevention_of_guesswork": "Because the answer is explicitly stated in the context, it does not effectively prevent guesswork; a test taker could select the correct answer without deep reasoning."
+     },
+     "correct_answer_score": "8/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).\", \"occurrence\": \"The correct answer is explicitly stated in the context and pathology report, making it very apparent to the test taker.\", \"justification\": \"The answer is fully supported by the clinical, imaging, and pathological findings provided in the context. The reasoning is logical and directly references the evidence in the case.\", \"depth_of_understanding\": \"The answer requires understanding of bladder tumor staging, histopathology, and the distinction between muscle-invasive and non-muscle-invasive disease, demonstrating nuanced clinical knowledge.\", \"prevention_of_guesswork\": \"Because the answer is explicitly stated in the context, it does not effectively prevent guesswork; a test taker could select the correct answer without deep reasoning.\"}, \"correct_answer_score\": \"8/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are in a similar format to the correct answer, as they all specify a type of carcinoma or tumor and reference the bladder, matching the specificity and medical terminology of the correct answer. Score: 5/5.",
+      "length": "The distractors are of similar length to the correct answer, each being a concise diagnostic phrase. Score: 5/5.",
+      "relation": "All distractors are related to the correct answer as they are all types of bladder tumors or plausible pelvic malignancies, maintaining clinical relevance. Score: 5/5.",
+      "variation": "There is good variation among the distractors, as they represent different histological types of bladder cancer and a metastatic tumor, which are distinct from each other and from the correct answer. Score: 5/5.",
+      "plausibility": "Each distractor is plausible in the context of a bladder mass, especially in an older female with a history of malignancy, and could reasonably be considered by a clinician. Score: 5/5.",
+      "differentiation": "The correct answer is clearly supported by the clinical, imaging, and pathological findings, while the distractors are less consistent with the case details, allowing for clear differentiation. Score: 5/5.",
+      "common_mistakes": "The distractors align with common misconceptions (e.g., confusing muscle-invasive with non-muscle-invasive disease, or considering metastatic or rare histologies), effectively testing understanding. Score: 5/5."
+     },
+     "distractor_options_score": "35/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are in a similar format to the correct answer, as they all specify a type of carcinoma or tumor and reference the bladder, matching the specificity and medical terminology of the correct answer. Score: 5/5.\", \"length\": \"The distractors are of similar length to the correct answer, each being a concise diagnostic phrase. Score: 5/5.\", \"relation\": \"All distractors are related to the correct answer as they are all types of bladder tumors or plausible pelvic malignancies, maintaining clinical relevance. Score: 5/5.\", \"variation\": \"There is good variation among the distractors, as they represent different histological types of bladder cancer and a metastatic tumor, which are distinct from each other and from the correct answer. Score: 5/5.\", \"plausibility\": \"Each distractor is plausible in the context of a bladder mass, especially in an older female with a history of malignancy, and could reasonably be considered by a clinician. Score: 5/5.\", \"differentiation\": \"The correct answer is clearly supported by the clinical, imaging, and pathological findings, while the distractors are less consistent with the case details, allowing for clear differentiation. Score: 5/5.\", \"common_mistakes\": \"The distractors align with common misconceptions (e.g., confusing muscle-invasive with non-muscle-invasive disease, or considering metastatic or rare histologies), effectively testing understanding. Score: 5/5.\"}, \"distractor_options_score\": \"35/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "logical_flow": "5/5 - The reasoning follows a clear and logical sequence: it starts with the clinical findings, integrates imaging and pathology, and then systematically rules out other diagnoses before concluding with the correct answer.",
+      "evidence_based_reasoning": "5/5 - The answer is thoroughly supported by evidence from the case: the description of the tumor's appearance, pathology results, cytology, and treatment all directly support the diagnosis of non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "consideration_of_options": "5/5 - The reasoning explicitly considers and eliminates each distractor option with appropriate supporting evidence, demonstrating a systematic and critical evaluation of alternatives."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).\",\n    \"logical_flow\": \"5/5 - The reasoning follows a clear and logical sequence: it starts with the clinical findings, integrates imaging and pathology, and then systematically rules out other diagnoses before concluding with the correct answer.\",\n    \"evidence_based_reasoning\": \"5/5 - The answer is thoroughly supported by evidence from the case: the description of the tumor's appearance, pathology results, cytology, and treatment all directly support the diagnosis of non-muscle-invasive papillary urothelial carcinoma (stage 0a).\",\n    \"consideration_of_options\": \"5/5 - The reasoning explicitly considers and eliminates each distractor option with appropriate supporting evidence, demonstrating a systematic and critical evaluation of alternatives.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 1.0,
+      "question": 1.0,
+      "correct_answer": 0.8,
+      "distractor_options": 1.0,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a vascularized mass within the bladder mucosa on routine pelvic imaging. She was asymptomatic, but urine cytology revealed atypical dysmorphic cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor at the apex of the posterior bladder wall. The lesion was resected via transurethral resection, and pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and no recurrence was noted at three months.\n\nQuestion:  \nBased on the clinical presentation, imaging, and pathological findings, what is the most likely diagnosis for this patient’s bladder lesion?\n\nCorrect answer:  \nNon-muscle-invasive papillary urothelial carcinoma (stage 0a)\n\nDistractor options:  \na) Squamous cell carcinoma of the bladder  \nb) Adenocarcinoma of the bladder  \nc) Small cell carcinoma of the bladder  \nd) Muscle-invasive urothelial carcinoma  \ne) Metastatic ovarian carcinoma involving the bladder",
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a vascularized mass within the bladder mucosa on routine pelvic imaging. She was asymptomatic, but urine cytology revealed atypical dysmorphic cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor at the apex of the posterior bladder wall. The lesion was resected via transurethral resection, and pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and no recurrence was noted at three months.",
+     "question": "Based on the clinical presentation, imaging, and pathological findings, what is the most likely diagnosis for this patient’s bladder lesion?",
+     "correct_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "distractor_options": [
+      "Squamous cell carcinoma of the bladder",
+      "Adenocarcinoma of the bladder",
+      "Small cell carcinoma of the bladder",
+      "Muscle-invasive urothelial carcinoma",
+      "Metastatic ovarian carcinoma involving the bladder"
+     ],
+     "distractor": {
+      "answer_index": "F",
+      "options": [
+       "A: Small cell carcinoma of the bladder",
+       "B: Adenocarcinoma of the bladder",
+       "C: Squamous cell carcinoma of the bladder",
+       "D: Muscle-invasive urothelial carcinoma",
+       "E: Metastatic ovarian carcinoma involving the bladder",
+       "F: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)"
+      ],
+      "distractor_lst": [
+       "Squamous cell carcinoma of the bladder",
+       "Adenocarcinoma of the bladder",
+       "Small cell carcinoma of the bladder",
+       "Muscle-invasive urothelial carcinoma",
+       "Metastatic ovarian carcinoma involving the bladder"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Non-muscle-invasive papillary urothelial carcinoma (stage 0a)",
+     "reasoning": "The patient's bladder lesion is described as a 2-cm stalked papillary tumor located on the posterior bladder wall, which was resected transurethrally. Pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). This type of tumor typically presents as a papillary growth confined to the urothelium without invasion into the muscularis propria, consistent with the clinical and pathological findings. The absence of muscle invasion and the use of intravesical chemotherapy further support this diagnosis. Other options are less consistent: Small cell carcinoma (A) is a rare, aggressive neuroendocrine tumor usually presenting as a bulky invasive mass; adenocarcinoma (B) and squamous cell carcinoma (C) are less common bladder cancers often associated with chronic irritation or metaplasia and tend to be invasive; muscle-invasive urothelial carcinoma (D) involves deeper bladder wall layers and would not be classified as stage 0a; metastatic ovarian carcinoma (E) would be unlikely without a known primary ovarian tumor and typically presents differently. Therefore, the diagnosis of non-muscle-invasive papillary urothelial carcinoma (stage 0a) best fits the clinical, imaging, and pathological data.",
+     "reasoning_answer_response": "Correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a)\n\nReasoning: The patient's bladder lesion is described as a 2-cm stalked papillary tumor located on the posterior bladder wall, which was resected transurethrally. Pathology confirmed a non-muscle-invasive papillary urothelial carcinoma (stage 0a). This type of tumor typically presents as a papillary growth confined to the urothelium without invasion into the muscularis propria, consistent with the clinical and pathological findings. The absence of muscle invasion and the use of intravesical chemotherapy further support this diagnosis. Other options are less consistent: Small cell carcinoma (A) is a rare, aggressive neuroendocrine tumor usually presenting as a bulky invasive mass; adenocarcinoma (B) and squamous cell carcinoma (C) are less common bladder cancers often associated with chronic irritation or metaplasia and tend to be invasive; muscle-invasive urothelial carcinoma (D) involves deeper bladder wall layers and would not be classified as stage 0a; metastatic ovarian carcinoma (E) would be unlikely without a known primary ovarian tumor and typically presents differently. Therefore, the diagnosis of non-muscle-invasive papillary urothelial carcinoma (stage 0a) best fits the clinical, imaging, and pathological data."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic, focusing on the patient's bladder lesion, its workup, and pathological findings.",
+      "concision": "The context is concise, summarizing the key clinical, imaging, and pathological findings without extraneous detail.",
+      "coherent": "The context is coherent and logically structured, leading smoothly from presentation to diagnosis.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's course and findings.",
+      "specific": "The context is specific, directly addressing the bladder lesion and its characteristics, which are central to the question.",
+      "fluent": "The context is fluent, with clear grammar and logical flow.",
+      "clueing": "The context provides clues (papillary tumor, non-muscle-invasive, stage 0a) rather than directly stating the diagnosis, allowing for reasoning.",
+      "completeness": "The context is complete, including all necessary information for the test taker to arrive at the correct diagnosis without ambiguity.",
+      "misdirection": "There is no misdirection; the context is straightforward and does not mislead the test taker."
+     },
+     "context_score": "40/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic, focusing on the patient's bladder lesion, its workup, and pathological findings.\", \"concision\": \"The context is concise, summarizing the key clinical, imaging, and pathological findings without extraneous detail.\", \"coherent\": \"The context is coherent and logically structured, leading smoothly from presentation to diagnosis.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's course and findings.\", \"specific\": \"The context is specific, directly addressing the bladder lesion and its characteristics, which are central to the question.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow.\", \"clueing\": \"The context provides clues (papillary tumor, non-muscle-invasive, stage 0a) rather than directly stating the diagnosis, allowing for reasoning.\", \"completeness\": \"The context is complete, including all necessary information for the test taker to arrive at the correct diagnosis without ambiguity.\", \"misdirection\": \"There is no misdirection; the context is straightforward and does not mislead the test taker.\"}, \"context_score\": \"40/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the provided context, which details the clinical, imaging, and pathological findings. The information flows logically to the question.",
+      "clear": "The question is clear and unambiguous, specifying that the answer should be based on the clinical presentation, imaging, and pathology.",
+      "concluding": "The flow from the context to the question is smooth and organic, as the context builds up to the diagnostic question.",
+      "difficulty": "The question is moderately challenging, requiring integration of clinical, imaging, and pathological data, but is still straightforward for someone with medical knowledge.",
+      "clarity": "The question is clear and unambiguous, avoiding any confusing or poorly worded elements."
+     },
+     "question_score": "19/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the provided context, which details the clinical, imaging, and pathological findings. The information flows logically to the question.\", \"clear\": \"The question is clear and unambiguous, specifying that the answer should be based on the clinical presentation, imaging, and pathology.\", \"concluding\": \"The flow from the context to the question is smooth and organic, as the context builds up to the diagnostic question.\", \"difficulty\": \"The question is moderately challenging, requiring integration of clinical, imaging, and pathological data, but is still straightforward for someone with medical knowledge.\", \"clarity\": \"The question is clear and unambiguous, avoiding any confusing or poorly worded elements.\"}, \"question_score\": \"19/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "occurrence": "The correct answer and its key terms ('non-muscle-invasive papillary urothelial carcinoma', 'stage 0a') are explicitly mentioned in the context and pathology report, making it very apparent.",
+      "justification": "The correct answer is fully supported by the clinical, imaging, and pathological findings provided in the context. The reasoning is thorough and logically connects the findings to the diagnosis.",
+      "depth_of_understanding": "The answer requires understanding of bladder tumor pathology, staging, and the significance of non-muscle invasion, as well as differentiating among bladder cancer subtypes. The reasoning demonstrates this nuanced understanding.",
+      "prevention_of_guesswork": "Given the explicit mention of the diagnosis in the context, the question does not effectively prevent guesswork; the answer is directly stated, reducing the challenge."
+     },
+     "correct_answer_score": "8/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer is directly aligned with the keypoint ('Non-muscle invasive bladder tumor') and the clinical context, which describes a non-muscle-invasive papillary urothelial carcinoma (stage 0a).\", \"occurrence\": \"The correct answer and its key terms ('non-muscle-invasive papillary urothelial carcinoma', 'stage 0a') are explicitly mentioned in the context and pathology report, making it very apparent.\", \"justification\": \"The correct answer is fully supported by the clinical, imaging, and pathological findings provided in the context. The reasoning is thorough and logically connects the findings to the diagnosis.\", \"depth_of_understanding\": \"The answer requires understanding of bladder tumor pathology, staging, and the significance of non-muscle invasion, as well as differentiating among bladder cancer subtypes. The reasoning demonstrates this nuanced understanding.\", \"prevention_of_guesswork\": \"Given the explicit mention of the diagnosis in the context, the question does not effectively prevent guesswork; the answer is directly stated, reducing the challenge.\"}, \"correct_answer_score\": \"8/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are all in the format of a specific cancer type or diagnosis, similar to the correct answer, which is appropriate. However, the correct answer includes a stage and a descriptor (non-muscle-invasive papillary urothelial carcinoma, stage 0a), while the distractors do not specify stage or invasiveness, making them slightly less detailed. Standardizing the level of detail would improve consistency.",
+      "length": "The distractors are generally of similar length to the correct answer, though the correct answer is slightly longer due to the inclusion of 'non-muscle-invasive papillary urothelial carcinoma (stage 0a)'. Most distractors are concise, but option E ('Metastatic ovarian carcinoma involving the bladder') is longer, creating some minor inconsistency.",
+      "relation": "All distractors are related to the correct answer as they are all types of bladder or genitourinary malignancies, or plausible differential diagnoses for a bladder mass. This is appropriate and maintains clinical relevance.",
+      "variation": "The distractors are distinct from each other and from the correct answer, representing different histological types of bladder cancer and a metastatic lesion. This provides good variation and tests the examinee's knowledge of bladder tumor pathology.",
+      "plausibility": "Each distractor is plausible in the context of a bladder mass, especially in an older patient. While some are less likely given the clinical details (e.g., small cell carcinoma is rare, metastatic ovarian carcinoma is less likely without a primary ovarian tumor), they are all reasonable differentials that could challenge a test-taker.",
+      "differentiation": "The correct answer clearly stands out based on the provided clinical, imaging, and pathological data. The distractors are sufficiently distinct, and the scenario provides enough information to differentiate the correct answer from the others.",
+      "common_mistakes": "The distractors align with common misconceptions: squamous cell carcinoma and adenocarcinoma are less common but possible, small cell carcinoma is rare but aggressive, muscle-invasive urothelial carcinoma is a common confusion with non-muscle-invasive disease, and metastatic ovarian carcinoma could be considered given the patient's history. This tests genuine understanding."
+     },
+     "distractor_options_score": "27/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are all in the format of a specific cancer type or diagnosis, similar to the correct answer, which is appropriate. However, the correct answer includes a stage and a descriptor (non-muscle-invasive papillary urothelial carcinoma, stage 0a), while the distractors do not specify stage or invasiveness, making them slightly less detailed. Standardizing the level of detail would improve consistency.\", \"length\": \"The distractors are generally of similar length to the correct answer, though the correct answer is slightly longer due to the inclusion of 'non-muscle-invasive papillary urothelial carcinoma (stage 0a)'. Most distractors are concise, but option E ('Metastatic ovarian carcinoma involving the bladder') is longer, creating some minor inconsistency.\", \"relation\": \"All distractors are related to the correct answer as they are all types of bladder or genitourinary malignancies, or plausible differential diagnoses for a bladder mass. This is appropriate and maintains clinical relevance.\", \"variation\": \"The distractors are distinct from each other and from the correct answer, representing different histological types of bladder cancer and a metastatic lesion. This provides good variation and tests the examinee's knowledge of bladder tumor pathology.\", \"plausibility\": \"Each distractor is plausible in the context of a bladder mass, especially in an older patient. While some are less likely given the clinical details (e.g., small cell carcinoma is rare, metastatic ovarian carcinoma is less likely without a primary ovarian tumor), they are all reasonable differentials that could challenge a test-taker.\", \"differentiation\": \"The correct answer clearly stands out based on the provided clinical, imaging, and pathological data. The distractors are sufficiently distinct, and the scenario provides enough information to differentiate the correct answer from the others.\", \"common_mistakes\": \"The distractors align with common misconceptions: squamous cell carcinoma and adenocarcinoma are less common but possible, small cell carcinoma is rare but aggressive, muscle-invasive urothelial carcinoma is a common confusion with non-muscle-invasive disease, and metastatic ovarian carcinoma could be considered given the patient's history. This tests genuine understanding.\"}, \"distractor_options_score\": \"27/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).",
+      "logical_flow": "5/5 - The reasoning follows a clear and logical sequence: it starts by describing the clinical findings, then matches them to the pathological diagnosis, and finally systematically compares the findings to each distractor option.",
+      "evidence_based_reasoning": "5/5 - The answer is well-supported by evidence from the context, including the tumor's size, location, histology, stage, and the absence of muscle invasion. The use of intravesical chemotherapy and the lack of recurrence at follow-up further support the diagnosis.",
+      "consideration_of_options": "5/5 - Each distractor is critically evaluated and systematically ruled out with supporting evidence, demonstrating a thorough and systematic approach to option elimination."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5 - The attempted answer is exactly the same as the correct answer: Non-muscle-invasive papillary urothelial carcinoma (stage 0a).\",\n    \"logical_flow\": \"5/5 - The reasoning follows a clear and logical sequence: it starts by describing the clinical findings, then matches them to the pathological diagnosis, and finally systematically compares the findings to each distractor option.\",\n    \"evidence_based_reasoning\": \"5/5 - The answer is well-supported by evidence from the context, including the tumor's size, location, histology, stage, and the absence of muscle invasion. The use of intravesical chemotherapy and the lack of recurrence at follow-up further support the diagnosis.\",\n    \"consideration_of_options\": \"5/5 - Each distractor is critically evaluated and systematically ruled out with supporting evidence, demonstrating a thorough and systematic approach to option elimination.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 1.0,
+      "question": 0.95,
+      "correct_answer": 0.8,
+      "distractor_options": 0.7714285714285715,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   }
+  ]
+ },
+ {
+  "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+  "topic": "appropriate surgical management",
+  "keypoint": "Bladder tumor resection",
+  "response": [
+   {
+    "qgen_in": {
+     "clinical_note": "The patient was a 68-year-old female with a G3P2 (G, gravidity; P, parity) pregnancy history who had undergone a pancreatoduodenectomy of the pancreas to remove a tumor (adenocarcinoma) of the duodenal papillae at our hospital five years ago. She underwent computed tomography (CT) during the postoperative follow-up and was suspected of having an ovarian tumor (Figure ); thus, she visited our Department of Obstetrics and Gynecology. Transvaginal ultrasound showed a mass with abundant internal blood flow in the bladder mucosa (Figure ). Although the patient had no urinary tract symptoms, an examination by a urologist was deemed necessary. Accordingly, the patient was referred to the Department of Urology, and urinalysis and urine cytology were performed because early-stage bladder cancer was suspected. Urinalysis showed no hematuria, but urine cytology showed dysmorphic cells that were indicative of a tumor. Cystoscopy revealed a stalked papillary tumor at the apex of the posterior wall of the bladder. Transurethral resection of bladder tumor was performed the following month. A 2-cm papillary tumor was found at the apex of the bladder (Figure ), and the lesion was resected, followed by intravesical chemotherapy administration. The pathological diagnosis revealed that the removed mass was a non-muscle-invasive bladder tumor (transitional cell carcinoma, stage 0a). At the three-month postoperative follow-up, no recurrence was noted. Postoperative CT examination has not yet been performed.",
+     "topic": "appropriate surgical management",
+     "keypoint": "Bladder tumor resection"
+    }
+   },
+   {
+    "qgen_out": {
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years prior was found to have a bladder mass during routine postoperative imaging. Although asymptomatic, transvaginal ultrasound revealed a vascularized lesion in the bladder mucosa. Subsequent urine cytology showed dysmorphic cells suggestive of malignancy. Cystoscopy identified a stalked papillary tumor on the posterior bladder wall, which was resected via transurethral resection of bladder tumor (TURBT). Pathology confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and follow-up at three months showed no recurrence. Further imaging studies are pending. This case highlights the role of TURBT as the initial surgical management for non-muscle-invasive bladder tumors.",
+     "question": "What is the appropriate initial surgical management for a non-muscle-invasive bladder tumor?",
+     "correct_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "distractor_options": [
+      "Radical cystectomy",
+      "Partial cystectomy",
+      "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+      "Systemic chemotherapy"
+     ],
+     "distractor": {
+      "answer_index": "E",
+      "options": [
+       "A: Partial cystectomy",
+       "B: Systemic chemotherapy",
+       "C: Radical cystectomy",
+       "D: Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "E: Transurethral resection of bladder tumor (TURBT)"
+      ],
+      "distractor_row": "Distractor options:  \nA: Radical cystectomy  \nB: Partial cystectomy  \nC: Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection  \nD: Systemic chemotherapy",
+      "distractor_lst": [
+       "Radical cystectomy",
+       "Partial cystectomy",
+       "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "Systemic chemotherapy"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "reasoning": "Non-muscle-invasive bladder tumors, such as stage 0a transitional cell carcinoma, are initially managed with transurethral resection of bladder tumor (TURBT). This procedure allows for both diagnosis and complete removal of visible tumors confined to the mucosa or submucosa. TURBT provides tissue for accurate staging and grading, which guides further treatment. Intravesical therapies, such as chemotherapy or Bacille Calmette-Guérin (BCG), are typically administered after TURBT to reduce recurrence risk but are not substitutes for initial tumor resection. Radical cystectomy and partial cystectomy are reserved for muscle-invasive or high-risk tumors not amenable to conservative management. Systemic chemotherapy is generally used for advanced or metastatic disease. Therefore, TURBT is the appropriate initial surgical management for non-muscle-invasive bladder tumors.",
+     "reasoning_answer_response": "Correct answer: Transurethral resection of bladder tumor (TURBT)\n\nReasoning: Non-muscle-invasive bladder tumors, such as stage 0a transitional cell carcinoma, are initially managed with transurethral resection of bladder tumor (TURBT). This procedure allows for both diagnosis and complete removal of visible tumors confined to the mucosa or submucosa. TURBT provides tissue for accurate staging and grading, which guides further treatment. Intravesical therapies, such as chemotherapy or Bacille Calmette-Guérin (BCG), are typically administered after TURBT to reduce recurrence risk but are not substitutes for initial tumor resection. Radical cystectomy and partial cystectomy are reserved for muscle-invasive or high-risk tumors not amenable to conservative management. Systemic chemotherapy is generally used for advanced or metastatic disease. Therefore, TURBT is the appropriate initial surgical management for non-muscle-invasive bladder tumors."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumors, focusing on the clinical scenario and management steps.",
+      "concision": "The context is concise, summarizing the patient's history, diagnostic findings, and management without unnecessary detail or repetition.",
+      "coherent": "The context is coherent and logically structured, leading from the patient's presentation to the diagnosis and management, and culminating in the key teaching point.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's course and the standard of care.",
+      "specific": "The context is specific, directly addressing the management of non-muscle-invasive bladder tumors and the use of TURBT.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides appropriate clues (asymptomatic mass, cytology, cystoscopy findings, pathology) without directly stating the answer before the question, allowing for clinical reasoning.",
+      "completeness": "The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.",
+      "misdirection": "The context does not mislead the test taker; it presents the clinical scenario and management steps clearly and accurately."
+     },
+     "context_score": "40/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumors, focusing on the clinical scenario and management steps.\", \"concision\": \"The context is concise, summarizing the patient's history, diagnostic findings, and management without unnecessary detail or repetition.\", \"coherent\": \"The context is coherent and logically structured, leading from the patient's presentation to the diagnosis and management, and culminating in the key teaching point.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's course and the standard of care.\", \"specific\": \"The context is specific, directly addressing the management of non-muscle-invasive bladder tumors and the use of TURBT.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides appropriate clues (asymptomatic mass, cytology, cystoscopy findings, pathology) without directly stating the answer before the question, allowing for clinical reasoning.\", \"completeness\": \"The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.\", \"misdirection\": \"The context does not mislead the test taker; it presents the clinical scenario and management steps clearly and accurately.\"}, \"context_score\": \"40/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context, which describes the diagnosis and management of a non-muscle-invasive bladder tumor, including the use of TURBT.",
+      "clear": "The question is clear and unambiguous, specifically asking for the initial surgical management for a defined clinical scenario.",
+      "concluding": "The flow from the context to the question is logical and organic, as the context details the clinical findings and management, leading naturally to the question about appropriate initial surgical management.",
+      "difficulty": "The question is of moderate difficulty. While the answer is explicitly stated in the context, it requires some clinical knowledge to distinguish TURBT from other management options, especially given the distractors.",
+      "clarity": "The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation."
+     },
+     "question_score": "19/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context, which describes the diagnosis and management of a non-muscle-invasive bladder tumor, including the use of TURBT.\", \"clear\": \"The question is clear and unambiguous, specifically asking for the initial surgical management for a defined clinical scenario.\", \"concluding\": \"The flow from the context to the question is logical and organic, as the context details the clinical findings and management, leading naturally to the question about appropriate initial surgical management.\", \"difficulty\": \"The question is of moderate difficulty. While the answer is explicitly stated in the context, it requires some clinical knowledge to distinguish TURBT from other management options, especially given the distractors.\", \"clarity\": \"The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation.\"}, \"question_score\": \"19/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management. It is the standard of care for non-muscle-invasive bladder tumors.",
+      "occurrence": "The term 'transurethral resection of bladder tumor (TURBT)' and its description are explicitly mentioned in the context, making the answer directly retrievable from the passage.",
+      "justification": "The answer is logically supported by the context, which details the diagnosis of a non-muscle-invasive bladder tumor and describes TURBT as the management performed, with supporting rationale for its use.",
+      "depth_of_understanding": "While the answer is correct, it does not require deep or nuanced understanding beyond basic recall, as the context provides a step-by-step account of the management and explicitly names TURBT.",
+      "prevention_of_guesswork": "Because the answer is directly stated in the context, there is little to prevent a test-taker from simply copying the information without true understanding, making guessing easier."
+     },
+     "correct_answer_score": "7/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management. It is the standard of care for non-muscle-invasive bladder tumors.\", \"occurrence\": \"The term 'transurethral resection of bladder tumor (TURBT)' and its description are explicitly mentioned in the context, making the answer directly retrievable from the passage.\", \"justification\": \"The answer is logically supported by the context, which details the diagnosis of a non-muscle-invasive bladder tumor and describes TURBT as the management performed, with supporting rationale for its use.\", \"depth_of_understanding\": \"While the answer is correct, it does not require deep or nuanced understanding beyond basic recall, as the context provides a step-by-step account of the management and explicitly names TURBT.\", \"prevention_of_guesswork\": \"Because the answer is directly stated in the context, there is little to prevent a test-taker from simply copying the information without true understanding, making guessing easier.\"}, \"correct_answer_score\": \"7/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are in a similar format to the correct answer, as they all refer to specific treatment modalities or procedures, though some use abbreviations and others are spelled out. Overall, the format is reasonably consistent. Score: 4/5.",
+      "length": "The distractors are of similar length to the correct answer, with each option being a short phrase or procedure name. Score: 5/5.",
+      "relation": "All distractors are related to the management of bladder cancer, specifically surgical or oncologic interventions, making them appropriate alternatives. Score: 5/5.",
+      "variation": "The distractors are distinct from each other and from the correct answer, representing different management strategies (radical surgery, partial surgery, intravesical therapy, systemic therapy). Score: 5/5.",
+      "plausibility": "Each distractor is plausible in the context of bladder cancer management, especially for those unfamiliar with the nuances of staging and treatment. They could be considered by someone not well-versed in the guidelines. Score: 5/5.",
+      "differentiation": "The correct answer (TURBT) clearly stands out as the initial management for non-muscle-invasive disease, while the distractors are more appropriate for advanced or different stages. The options are distinct and the correct answer is clearly superior based on the context. Score: 5/5.",
+      "common_mistakes": "The distractors align with common misconceptions, such as over-treating with radical or partial cystectomy, or skipping resection for intravesical therapy, which tests genuine understanding. Score: 5/5."
+     },
+     "distractor_options_score": "34/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are in a similar format to the correct answer, as they all refer to specific treatment modalities or procedures, though some use abbreviations and others are spelled out. Overall, the format is reasonably consistent. Score: 4/5.\", \"length\": \"The distractors are of similar length to the correct answer, with each option being a short phrase or procedure name. Score: 5/5.\", \"relation\": \"All distractors are related to the management of bladder cancer, specifically surgical or oncologic interventions, making them appropriate alternatives. Score: 5/5.\", \"variation\": \"The distractors are distinct from each other and from the correct answer, representing different management strategies (radical surgery, partial surgery, intravesical therapy, systemic therapy). Score: 5/5.\", \"plausibility\": \"Each distractor is plausible in the context of bladder cancer management, especially for those unfamiliar with the nuances of staging and treatment. They could be considered by someone not well-versed in the guidelines. Score: 5/5.\", \"differentiation\": \"The correct answer (TURBT) clearly stands out as the initial management for non-muscle-invasive disease, while the distractors are more appropriate for advanced or different stages. The options are distinct and the correct answer is clearly superior based on the context. Score: 5/5.\", \"common_mistakes\": \"The distractors align with common misconceptions, such as over-treating with radical or partial cystectomy, or skipping resection for intravesical therapy, which tests genuine understanding. Score: 5/5.\"}, \"distractor_options_score\": \"34/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).",
+      "logical_flow": "5/5. The reasoning follows a clear and logical sequence: it starts by identifying the tumor type and stage, explains the rationale for TURBT as both diagnostic and therapeutic, and then discusses the roles of adjunctive therapies and why other surgical options are not appropriate for non-muscle-invasive disease.",
+      "evidence_based_reasoning": "5/5. The answer is well-supported by evidence from the context and standard clinical guidelines. It references the tumor's stage (0a, non-muscle-invasive), the role of TURBT in diagnosis and management, and the use of intravesical therapy post-resection, all of which are consistent with best practices.",
+      "consideration_of_options": "5/5. The reasoning systematically evaluates and eliminates each distractor option with supporting evidence: radical and partial cystectomy are reserved for more advanced disease, intravesical therapy is adjunctive rather than primary, and systemic chemotherapy is for advanced/metastatic cases."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).\",\n    \"logical_flow\": \"5/5. The reasoning follows a clear and logical sequence: it starts by identifying the tumor type and stage, explains the rationale for TURBT as both diagnostic and therapeutic, and then discusses the roles of adjunctive therapies and why other surgical options are not appropriate for non-muscle-invasive disease.\",\n    \"evidence_based_reasoning\": \"5/5. The answer is well-supported by evidence from the context and standard clinical guidelines. It references the tumor's stage (0a, non-muscle-invasive), the role of TURBT in diagnosis and management, and the use of intravesical therapy post-resection, all of which are consistent with best practices.\",\n    \"consideration_of_options\": \"5/5. The reasoning systematically evaluates and eliminates each distractor option with supporting evidence: radical and partial cystectomy are reserved for more advanced disease, intravesical therapy is adjunctive rather than primary, and systemic chemotherapy is for advanced/metastatic cases.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 1.0,
+      "question": 0.95,
+      "correct_answer": 0.7,
+      "distractor_options": 0.9714285714285714,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a bladder mass during routine postoperative imaging. She was asymptomatic, but transvaginal ultrasound revealed a vascular lesion in the bladder mucosa. Urine cytology showed atypical cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor on the posterior bladder wall. The lesion was resected via transurethral resection of bladder tumor (TURBT). Pathology confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and follow-up at three months showed no recurrence.\n\nQuestion:  \nWhat is the appropriate initial surgical management for a non-muscle-invasive bladder tumor?\n\nCorrect answer:  \nTransurethral resection of bladder tumor (TURBT)\n\nDistractor options:  \na) Radical cystectomy  \nb) Partial cystectomy  \nc) Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection  \nd) Systemic chemotherapy",
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a bladder mass during routine postoperative imaging. She was asymptomatic, but transvaginal ultrasound revealed a vascular lesion in the bladder mucosa. Urine cytology showed atypical cells suggestive of malignancy. Cystoscopy identified a 2-cm stalked papillary tumor on the posterior bladder wall. The lesion was resected via transurethral resection of bladder tumor (TURBT). Pathology confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient received intravesical chemotherapy postoperatively, and follow-up at three months showed no recurrence.",
+     "question": "What is the appropriate initial surgical management for a non-muscle-invasive bladder tumor?",
+     "correct_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "distractor_options": [
+      "Radical cystectomy",
+      "Partial cystectomy",
+      "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+      "Systemic chemotherapy"
+     ],
+     "distractor": {
+      "answer_index": "A",
+      "options": [
+       "A: Transurethral resection of bladder tumor (TURBT)",
+       "B: Radical cystectomy",
+       "C: Partial cystectomy",
+       "D: Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "E: Systemic chemotherapy"
+      ],
+      "distractor_lst": [
+       "Radical cystectomy",
+       "Partial cystectomy",
+       "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "Systemic chemotherapy"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "reasoning": "The initial management of a non-muscle-invasive bladder tumor (stage 0a) involves complete removal of the visible tumor via transurethral resection of bladder tumor (TURBT). This procedure allows for both diagnosis and treatment by excising the tumor and providing tissue for histopathological evaluation. Radical cystectomy (B) and partial cystectomy (C) are reserved for muscle-invasive or high-risk tumors not controlled by less invasive methods. Intravesical Bacille Calmette-Guérin (BCG) therapy (D) is used as adjuvant treatment after TURBT to reduce recurrence risk but is not appropriate without prior tumor resection. Systemic chemotherapy (E) is generally reserved for advanced or metastatic disease. Therefore, TURBT is the appropriate initial surgical management for non-muscle-invasive bladder cancer.",
+     "reasoning_answer_response": "Correct answer: Transurethral resection of bladder tumor (TURBT)\n\nReasoning: The initial management of a non-muscle-invasive bladder tumor (stage 0a) involves complete removal of the visible tumor via transurethral resection of bladder tumor (TURBT). This procedure allows for both diagnosis and treatment by excising the tumor and providing tissue for histopathological evaluation. Radical cystectomy (B) and partial cystectomy (C) are reserved for muscle-invasive or high-risk tumors not controlled by less invasive methods. Intravesical Bacille Calmette-Guérin (BCG) therapy (D) is used as adjuvant treatment after TURBT to reduce recurrence risk but is not appropriate without prior tumor resection. Systemic chemotherapy (E) is generally reserved for advanced or metastatic disease. Therefore, TURBT is the appropriate initial surgical management for non-muscle-invasive bladder cancer."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumor, focusing on the clinical scenario and management steps.",
+      "concision": "The context is concise, summarizing the patient's history, findings, and management without unnecessary detail or repetition.",
+      "coherent": "The context is coherent and logically structured, leading smoothly from the patient's presentation to the surgical intervention and follow-up.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's diagnosis and management.",
+      "specific": "The context is specific, directly addressing the management of non-muscle-invasive bladder tumor and the use of TURBT.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides clues (e.g., non-muscle-invasive, stage 0a, TURBT performed) without directly stating the answer, allowing for reasoning.",
+      "completeness": "The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.",
+      "misdirection": "The context does not mislead the test taker and presents information in a straightforward manner."
+     },
+     "context_score": "40/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumor, focusing on the clinical scenario and management steps.\", \"concision\": \"The context is concise, summarizing the patient's history, findings, and management without unnecessary detail or repetition.\", \"coherent\": \"The context is coherent and logically structured, leading smoothly from the patient's presentation to the surgical intervention and follow-up.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's diagnosis and management.\", \"specific\": \"The context is specific, directly addressing the management of non-muscle-invasive bladder tumor and the use of TURBT.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides clues (e.g., non-muscle-invasive, stage 0a, TURBT performed) without directly stating the answer, allowing for reasoning.\", \"completeness\": \"The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.\", \"misdirection\": \"The context does not mislead the test taker and presents information in a straightforward manner.\"}, \"context_score\": \"40/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context provided, which describes the diagnosis and management of a non-muscle-invasive bladder tumor. The context leads logically to the question about initial surgical management.",
+      "clear": "The question is clear and unambiguous, specifically asking for the initial surgical management of a non-muscle-invasive bladder tumor.",
+      "concluding": "The flow from the context to the question is smooth and organic. The clinical scenario describes the diagnosis and management, naturally leading to a question about the appropriate initial surgical intervention.",
+      "difficulty": "The question is of moderate difficulty. While the answer is present in the context, it requires some clinical knowledge to distinguish TURBT from other management options, especially given the distractors.",
+      "clarity": "The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation."
+     },
+     "question_score": "19/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context provided, which describes the diagnosis and management of a non-muscle-invasive bladder tumor. The context leads logically to the question about initial surgical management.\", \"clear\": \"The question is clear and unambiguous, specifically asking for the initial surgical management of a non-muscle-invasive bladder tumor.\", \"concluding\": \"The flow from the context to the question is smooth and organic. The clinical scenario describes the diagnosis and management, naturally leading to a question about the appropriate initial surgical intervention.\", \"difficulty\": \"The question is of moderate difficulty. While the answer is present in the context, it requires some clinical knowledge to distinguish TURBT from other management options, especially given the distractors.\", \"clarity\": \"The question is clear and unambiguous, with no confusing wording or ambiguity that could lead to misinterpretation.\"}, \"question_score\": \"19/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management. It is the standard and most relevant intervention for non-muscle-invasive bladder tumors.",
+      "occurrence": "The term 'transurethral resection of bladder tumor (TURBT)' is explicitly mentioned in the context, which makes the answer very apparent to anyone reading the passage.",
+      "justification": "The correct answer is fully supported by the context, which describes the diagnosis of a non-muscle-invasive bladder tumor and the subsequent TURBT procedure. The clinical scenario and pathology confirm that TURBT is the indicated management.",
+      "depth_of_understanding": "Selecting TURBT as the answer requires understanding the staging and management of bladder cancer, specifically that non-muscle-invasive tumors are treated with local resection rather than more aggressive or systemic therapies. However, since the answer is directly stated in the context, it does not require deep inference.",
+      "prevention_of_guesswork": "Because the answer is directly stated in the context, there is little to prevent guesswork. The question does not challenge the test taker to distinguish between similar options based on nuanced clinical reasoning."
+     },
+     "correct_answer_score": "7/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management. It is the standard and most relevant intervention for non-muscle-invasive bladder tumors.\", \"occurrence\": \"The term 'transurethral resection of bladder tumor (TURBT)' is explicitly mentioned in the context, which makes the answer very apparent to anyone reading the passage.\", \"justification\": \"The correct answer is fully supported by the context, which describes the diagnosis of a non-muscle-invasive bladder tumor and the subsequent TURBT procedure. The clinical scenario and pathology confirm that TURBT is the indicated management.\", \"depth_of_understanding\": \"Selecting TURBT as the answer requires understanding the staging and management of bladder cancer, specifically that non-muscle-invasive tumors are treated with local resection rather than more aggressive or systemic therapies. However, since the answer is directly stated in the context, it does not require deep inference.\", \"prevention_of_guesswork\": \"Because the answer is directly stated in the context, there is little to prevent guesswork. The question does not challenge the test taker to distinguish between similar options based on nuanced clinical reasoning.\"}, \"correct_answer_score\": \"7/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are in a similar format to the correct answer, as they are all named procedures or therapies, though some use abbreviations and others do not. Standardizing the use of abbreviations (e.g., always including the full name and abbreviation) would improve consistency.",
+      "length": "The distractors are of similar length to the correct answer, with each being a short phrase describing a treatment modality. This is appropriate.",
+      "relation": "All distractors are related to the correct answer as they are all recognized management options for bladder cancer, though not appropriate for the specific stage described. This is good.",
+      "variation": "The distractors are distinct from each other and from the correct answer, representing different management strategies (surgical, intravesical, systemic).",
+      "plausibility": "Each distractor is plausible in the context of bladder cancer management, especially for those less familiar with staging and treatment algorithms. They could be considered by someone who does not know the nuances of initial management.",
+      "differentiation": "The correct answer clearly outshines the distractors based on the context and clinical details provided. The distractors are not correct for non-muscle-invasive disease, but are reasonable options for other stages or scenarios.",
+      "common_mistakes": "The distractors align with common misconceptions, such as over-treating with radical or partial cystectomy, or skipping resection in favor of BCG or systemic chemotherapy. This tests genuine understanding."
+     },
+     "distractor_options_score": "14/15",
+     "distractor_options_response_row": "{\n  \"distractor_options_feedback\": {\n    \"format\": \"The distractors are in a similar format to the correct answer, as they are all named procedures or therapies, though some use abbreviations and others do not. Standardizing the use of abbreviations (e.g., always including the full name and abbreviation) would improve consistency.\",\n    \"length\": \"The distractors are of similar length to the correct answer, with each being a short phrase describing a treatment modality. This is appropriate.\",\n    \"relation\": \"All distractors are related to the correct answer as they are all recognized management options for bladder cancer, though not appropriate for the specific stage described. This is good.\",\n    \"variation\": \"The distractors are distinct from each other and from the correct answer, representing different management strategies (surgical, intravesical, systemic).\",\n    \"plausibility\": \"Each distractor is plausible in the context of bladder cancer management, especially for those less familiar with staging and treatment algorithms. They could be considered by someone who does not know the nuances of initial management.\",\n    \"differentiation\": \"The correct answer clearly outshines the distractors based on the context and clinical details provided. The distractors are not correct for non-muscle-invasive disease, but are reasonable options for other stages or scenarios.\",\n    \"common_mistakes\": \"The distractors align with common misconceptions, such as over-treating with radical or partial cystectomy, or skipping resection in favor of BCG or systemic chemotherapy. This tests genuine understanding.\"\n  },\n  \"distractor_options_score\": \"14/15\"\n}",
+     "reasoning_feedback": {
+      "correctness": "5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).",
+      "logical_flow": "5/5. The reasoning follows a clear and logical sequence: it first states the standard management for non-muscle-invasive bladder tumors, explains the purpose of TURBT, and then systematically addresses why other options are not appropriate as initial surgical management.",
+      "evidence_based_reasoning": "5/5. The answer is well-supported by evidence from the context and standard clinical guidelines. It references the tumor's stage (0a), the role of TURBT in both diagnosis and treatment, and the indications for other therapies, all of which are consistent with the case details.",
+      "consideration_of_options": "5/5. The reasoning critically evaluates each distractor option, providing justification for why radical cystectomy, partial cystectomy, intravesical BCG without resection, and systemic chemotherapy are not appropriate initial surgical management for this case."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).\",\n    \"logical_flow\": \"5/5. The reasoning follows a clear and logical sequence: it first states the standard management for non-muscle-invasive bladder tumors, explains the purpose of TURBT, and then systematically addresses why other options are not appropriate as initial surgical management.\",\n    \"evidence_based_reasoning\": \"5/5. The answer is well-supported by evidence from the context and standard clinical guidelines. It references the tumor's stage (0a), the role of TURBT in both diagnosis and treatment, and the indications for other therapies, all of which are consistent with the case details.\",\n    \"consideration_of_options\": \"5/5. The reasoning critically evaluates each distractor option, providing justification for why radical cystectomy, partial cystectomy, intravesical BCG without resection, and systemic chemotherapy are not appropriate initial surgical management for this case.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 1.0,
+      "question": 0.95,
+      "correct_answer": 0.7,
+      "distractor_options": 0.9333333333333333,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   },
+   {
+    "qgen_out": {
+     "qgen_iterative_row": "Context:  \nA 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a 2-cm papillary bladder tumor on cystoscopy after imaging revealed a vascular lesion in the bladder mucosa. Urine cytology showed atypical cells suggestive of malignancy. The tumor was located on the posterior bladder wall. Pathology after resection confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient subsequently received intravesical chemotherapy and showed no recurrence at three months.\n\nQuestion:  \nWhat is the recommended initial surgical treatment for a non-muscle-invasive bladder tumor?\n\nCorrect answer:  \nTransurethral resection of bladder tumor (TURBT)\n\nDistractor options:  \na) Radical cystectomy  \nb) Partial cystectomy  \nc) Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection  \nd) Systemic chemotherapy",
+     "context": "A 68-year-old female with a history of pancreatoduodenectomy for adenocarcinoma of the duodenal papillae five years ago was found to have a 2-cm papillary bladder tumor on cystoscopy after imaging revealed a vascular lesion in the bladder mucosa. Urine cytology showed atypical cells suggestive of malignancy. The tumor was located on the posterior bladder wall. Pathology after resection confirmed a non-muscle-invasive transitional cell carcinoma (stage 0a). The patient subsequently received intravesical chemotherapy and showed no recurrence at three months.",
+     "question": "What is the recommended initial surgical treatment for a non-muscle-invasive bladder tumor?",
+     "correct_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "distractor_options": [
+      "Radical cystectomy",
+      "Partial cystectomy",
+      "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+      "Systemic chemotherapy"
+     ],
+     "distractor": {
+      "answer_index": "A",
+      "options": [
+       "A: Transurethral resection of bladder tumor (TURBT)",
+       "B: Systemic chemotherapy",
+       "C: Radical cystectomy",
+       "D: Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "E: Partial cystectomy"
+      ],
+      "distractor_lst": [
+       "Radical cystectomy",
+       "Partial cystectomy",
+       "Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection",
+       "Systemic chemotherapy"
+      ]
+     }
+    }
+   },
+   {
+    "rans_out": {
+     "attempted_answer": "Transurethral resection of bladder tumor (TURBT)",
+     "reasoning": "The initial recommended surgical treatment for a non-muscle-invasive bladder tumor, such as stage 0a transitional cell carcinoma, is transurethral resection of bladder tumor (TURBT). TURBT allows for complete removal of visible tumors, provides tissue for accurate staging and grading, and is both diagnostic and therapeutic. Following TURBT, intravesical therapies such as chemotherapy or Bacille Calmette-Guérin (BCG) may be administered to reduce recurrence risk. Systemic chemotherapy (B) and radical cystectomy (C) are reserved for muscle-invasive or high-risk disease. Intravesical BCG therapy without prior resection (D) is inappropriate because tumor removal is necessary before instillation. Partial cystectomy (E) is rarely performed and generally reserved for select cases with localized muscle-invasive tumors. Therefore, TURBT is the standard initial surgical approach for non-muscle-invasive bladder cancer.",
+     "reasoning_answer_response": "Correct answer: Transurethral resection of bladder tumor (TURBT)\n\nReasoning: The initial recommended surgical treatment for a non-muscle-invasive bladder tumor, such as stage 0a transitional cell carcinoma, is transurethral resection of bladder tumor (TURBT). TURBT allows for complete removal of visible tumors, provides tissue for accurate staging and grading, and is both diagnostic and therapeutic. Following TURBT, intravesical therapies such as chemotherapy or Bacille Calmette-Guérin (BCG) may be administered to reduce recurrence risk. Systemic chemotherapy (B) and radical cystectomy (C) are reserved for muscle-invasive or high-risk disease. Intravesical BCG therapy without prior resection (D) is inappropriate because tumor removal is necessary before instillation. Partial cystectomy (E) is rarely performed and generally reserved for select cases with localized muscle-invasive tumors. Therefore, TURBT is the standard initial surgical approach for non-muscle-invasive bladder cancer."
+    }
+   },
+   {
+    "feedback_out": {
+     "context_feedback": {
+      "relevant": "The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumor, focusing on the patient's diagnosis and treatment course.",
+      "concision": "The context is concise, summarizing the key clinical findings, diagnostic steps, and management without unnecessary detail.",
+      "coherent": "The context is coherent and logically structured, leading smoothly from the patient's history to the diagnosis and management, setting up the question well.",
+      "consistent": "The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and management.",
+      "specific": "The context is specific, directly addressing the diagnosis of non-muscle-invasive bladder tumor and the management steps taken.",
+      "fluent": "The context is fluent, with clear grammar and logical flow of ideas.",
+      "clueing": "The context provides clues (e.g., non-muscle-invasive, stage 0a, pathology findings) without directly stating the answer, allowing for reasoning.",
+      "completeness": "The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.",
+      "misdirection": "The context does not mislead the test taker; it presents the facts clearly and supports accurate reasoning."
+     },
+     "context_score": "36/40",
+     "context_response_row": "{\"context_feedback\": {\"relevant\": \"The context is highly relevant to the topic of appropriate surgical management for non-muscle-invasive bladder tumor, focusing on the patient's diagnosis and treatment course.\", \"concision\": \"The context is concise, summarizing the key clinical findings, diagnostic steps, and management without unnecessary detail.\", \"coherent\": \"The context is coherent and logically structured, leading smoothly from the patient's history to the diagnosis and management, setting up the question well.\", \"consistent\": \"The context is consistent with the clinical note and the topic, accurately reflecting the patient's presentation and management.\", \"specific\": \"The context is specific, directly addressing the diagnosis of non-muscle-invasive bladder tumor and the management steps taken.\", \"fluent\": \"The context is fluent, with clear grammar and logical flow of ideas.\", \"clueing\": \"The context provides clues (e.g., non-muscle-invasive, stage 0a, pathology findings) without directly stating the answer, allowing for reasoning.\", \"completeness\": \"The context is complete, providing all necessary information for the test taker to answer the question accurately without ambiguity.\", \"misdirection\": \"The context does not mislead the test taker; it presents the facts clearly and supports accurate reasoning.\"}, \"context_score\": \"36/40\"}",
+     "question_feedback": {
+      "relevant": "The question is highly relevant and directly answerable from the context, which describes the diagnosis and management of a non-muscle-invasive bladder tumor. The context provides all necessary information to answer the question.",
+      "clear": "The question is clear and unambiguous, specifically asking for the recommended initial surgical treatment for a non-muscle-invasive bladder tumor.",
+      "concluding": "The flow from the context to the question is logical and organic. The clinical scenario leads naturally to a question about the appropriate initial surgical management.",
+      "difficulty": "The question is of moderate difficulty. While the answer is present in the context, it requires some clinical knowledge to recognize TURBT as the standard of care for non-muscle-invasive bladder cancer.",
+      "clarity": "The question is clear and unambiguous, avoiding any wording that could lead to misinterpretation."
+     },
+     "question_score": "19/20",
+     "question_response_row": "{\"question_feedback\": {\"relevant\": \"The question is highly relevant and directly answerable from the context, which describes the diagnosis and management of a non-muscle-invasive bladder tumor. The context provides all necessary information to answer the question.\", \"clear\": \"The question is clear and unambiguous, specifically asking for the recommended initial surgical treatment for a non-muscle-invasive bladder tumor.\", \"concluding\": \"The flow from the context to the question is logical and organic. The clinical scenario leads naturally to a question about the appropriate initial surgical management.\", \"difficulty\": \"The question is of moderate difficulty. While the answer is present in the context, it requires some clinical knowledge to recognize TURBT as the standard of care for non-muscle-invasive bladder cancer.\", \"clarity\": \"The question is clear and unambiguous, avoiding any wording that could lead to misinterpretation.\"}, \"question_score\": \"19/20\"}",
+     "correct_answer_feedback": {
+      "relevant": "The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management for non-muscle-invasive bladder tumors.",
+      "occurrence": "The term 'transurethral resection of bladder tumor' and its abbreviation 'TURBT' are explicitly mentioned in the context, making the answer directly retrievable from the passage.",
+      "justification": "The answer is logically supported by the context, which describes the diagnosis of a non-muscle-invasive bladder tumor and the subsequent TURBT procedure, matching standard guidelines for initial management.",
+      "depth_of_understanding": "The answer requires some understanding of bladder cancer staging and management, but since the context provides both the diagnosis and the intervention, the depth of understanding required is moderate.",
+      "prevention_of_guesswork": "Because the answer is stated verbatim in the context, it does not effectively prevent guesswork; a test-taker could answer correctly without deep knowledge, simply by matching terms."
+     },
+     "correct_answer_score": "8/10",
+     "correct_answer_response_row": "{\"correct_answer_feedback\": {\"relevant\": \"The correct answer, 'Transurethral resection of bladder tumor (TURBT)', is directly aligned with the keypoint 'Bladder tumor resection' and the topic of appropriate surgical management for non-muscle-invasive bladder tumors.\", \"occurrence\": \"The term 'transurethral resection of bladder tumor' and its abbreviation 'TURBT' are explicitly mentioned in the context, making the answer directly retrievable from the passage.\", \"justification\": \"The answer is logically supported by the context, which describes the diagnosis of a non-muscle-invasive bladder tumor and the subsequent TURBT procedure, matching standard guidelines for initial management.\", \"depth_of_understanding\": \"The answer requires some understanding of bladder cancer staging and management, but since the context provides both the diagnosis and the intervention, the depth of understanding required is moderate.\", \"prevention_of_guesswork\": \"Because the answer is stated verbatim in the context, it does not effectively prevent guesswork; a test-taker could answer correctly without deep knowledge, simply by matching terms.\"}, \"correct_answer_score\": \"8/10\"}",
+     "distractor_options_feedback": {
+      "format": "The distractors are in a similar format to the correct answer, as they all name a treatment modality or procedure. However, some include additional detail (e.g., 'without prior resection'), which could be standardized. Score: 4/5.",
+      "length": "Most distractors are of similar length to the correct answer, though 'Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection' is notably longer. Score: 4/5.",
+      "relation": "All distractors are related to the correct answer as they are all recognized treatments for bladder cancer, though not appropriate for the initial management of non-muscle-invasive disease. Score: 5/5.",
+      "variation": "The distractors are distinct from each other and from the correct answer, representing different management strategies (surgical, intravesical, systemic). Score: 5/5.",
+      "plausibility": "All distractors are plausible options in the context of bladder cancer management, though not for the specific scenario of non-muscle-invasive disease. Score: 5/5.",
+      "differentiation": "The correct answer clearly stands out as the standard of care for non-muscle-invasive bladder cancer, while the distractors are more appropriate for other stages or situations. Score: 5/5.",
+      "common_mistakes": "The distractors align well with common misconceptions, such as confusing treatments for muscle-invasive versus non-muscle-invasive disease, or skipping the resection step. Score: 5/5."
+     },
+     "distractor_options_score": "33/35",
+     "distractor_options_response_row": "{\"distractor_options_feedback\": {\"format\": \"The distractors are in a similar format to the correct answer, as they all name a treatment modality or procedure. However, some include additional detail (e.g., 'without prior resection'), which could be standardized. Score: 4/5.\", \"length\": \"Most distractors are of similar length to the correct answer, though 'Intravesical Bacille Calmette-Guérin (BCG) therapy without prior resection' is notably longer. Score: 4/5.\", \"relation\": \"All distractors are related to the correct answer as they are all recognized treatments for bladder cancer, though not appropriate for the initial management of non-muscle-invasive disease. Score: 5/5.\", \"variation\": \"The distractors are distinct from each other and from the correct answer, representing different management strategies (surgical, intravesical, systemic). Score: 5/5.\", \"plausibility\": \"All distractors are plausible options in the context of bladder cancer management, though not for the specific scenario of non-muscle-invasive disease. Score: 5/5.\", \"differentiation\": \"The correct answer clearly stands out as the standard of care for non-muscle-invasive bladder cancer, while the distractors are more appropriate for other stages or situations. Score: 5/5.\", \"common_mistakes\": \"The distractors align well with common misconceptions, such as confusing treatments for muscle-invasive versus non-muscle-invasive disease, or skipping the resection step. Score: 5/5.\"}, \"distractor_options_score\": \"33/35\"}",
+     "reasoning_feedback": {
+      "correctness": "5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).",
+      "logical_flow": "5/5. The reasoning follows a clear and logical sequence: it first identifies the tumor type and stage, then explains why TURBT is appropriate, and finally discusses why other options are not suitable.",
+      "evidence_based_reasoning": "5/5. The answer is well-supported by evidence from the context (non-muscle-invasive, stage 0a transitional cell carcinoma) and standard clinical guidelines, justifying TURBT as the initial treatment.",
+      "consideration_of_options": "5/5. The reasoning systematically evaluates each distractor option, providing clear explanations for why they are not appropriate in this scenario, demonstrating critical evaluation."
+     },
+     "reasoning_score": "20/20",
+     "reasoning_response_row": "{\n  \"reasoning_feedback\": {\n    \"correctness\": \"5/5. The attempted answer is exactly the same as the correct answer: Transurethral resection of bladder tumor (TURBT).\",\n    \"logical_flow\": \"5/5. The reasoning follows a clear and logical sequence: it first identifies the tumor type and stage, then explains why TURBT is appropriate, and finally discusses why other options are not suitable.\",\n    \"evidence_based_reasoning\": \"5/5. The answer is well-supported by evidence from the context (non-muscle-invasive, stage 0a transitional cell carcinoma) and standard clinical guidelines, justifying TURBT as the initial treatment.\",\n    \"consideration_of_options\": \"5/5. The reasoning systematically evaluates each distractor option, providing clear explanations for why they are not appropriate in this scenario, demonstrating critical evaluation.\"\n  },\n  \"reasoning_score\": \"20/20\"\n}",
+     "score": {
+      "context": 0.9,
+      "question": 0.95,
+      "correct_answer": 0.8,
+      "distractor_options": 0.9428571428571428,
+      "reasoning": 1.0,
+      "stop": false
+     }
+    }
+   }
+  ]
+ }
+]

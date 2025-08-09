@@ -14,16 +14,20 @@ This includes:
 * **Question evaluation** – Assessing correctness, difficulty, and discrimination indices.
 * **Question refinement** – Iteratively improving questions based on evaluation feedback.
 
+# Quick start
+- `python oneshot.py`
+    - data/outputs/oneshot_collector.json
+- `python main.py`
+    - data/outputs/qgen_auto_feedback.json
+
 # Tasks
 ##  data prepare
 - qbank vector database
     - `python build_qbank_db.py`
 - inputs
-    - fewshot examples see data/fewshot_source
-        - from the official repo
-    - input data
-        - data/input_source
-        - data/inputs
+    - data/fewshot_source
+    - data/input_source
+    - data/inputs
 
 ## qgen_init
 - src/qgen_init_lgc.py
