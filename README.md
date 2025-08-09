@@ -16,12 +16,14 @@ This includes:
 
 # Tasks
 ##  data prepare
-- qgen_init
-    - qbank vector database
-        - `python build_qbank_db.py`
-    - inputs
-        - fewshot examples see data/fewshot_source
-            - from the official repo
+- qbank vector database
+    - `python build_qbank_db.py`
+- inputs
+    - fewshot examples see data/fewshot_source
+        - from the official repo
+    - input data
+        - data/input_source
+        - data/inputs
 
 ## qgen_init
 - src/qgen_init_lgc.py
@@ -41,6 +43,32 @@ This includes:
         (context, question, options)
     - output: 
         (attempted_answer, reasoning)
+
+## feedback
+- src/feedback_lgc.py
+- src/models/
+    - context_feedback
+    - correct_answer_feedback
+    - distractor_options_feedback
+    - question_feedback
+    - reasoning_feedback
+- `python test_feedback.py`
+    - input:
+        - (clinical_note, topic, keypoint)
+        - (context, question, correct_answer, distractor_options)
+    - output:
+        - context_feedback
+        - context_scroe
+        - question_feedback
+        - question_score
+        - correct_answer_feedback
+        - correct_answer_score
+        - distractor_options_feedback
+        - distractor_options_score
+        - reasoning_feedback
+        - reasoning_score
+        - score
+            - stop
 
 # Reference
 - [MCQG-SRefine official github](https://github.com/bio-nlp/MedQG)
