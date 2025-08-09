@@ -1,7 +1,6 @@
-MedQG*
 .env
-**.ipynb_checkpoints**
-QGReimp/data/*
 **__pycache__**
-QGReimp/notebooks/data/*
-data/Content_Outline/En/*
+**.ipynb_checkpoints**
+data/qbank_embedding/*
+data/outputs/test/*
+notebooks/*
