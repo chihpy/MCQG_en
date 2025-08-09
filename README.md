@@ -70,6 +70,25 @@ This includes:
         - score
             - stop
 
+## qgen_iterative
+- src/qgen_iterative_lgc.py
+- `python test_qgen_iterative.py`
+    - input:
+        - (clinical_note, topic, keypoint)
+        - (context, question, correct_answer, distractor_options)
+        - (attempted_answer, reasoning)
+        - feedback
+            - context_feedback
+            - context_scroe
+            - question_feedback
+            - question_score
+            - correct_answer_feedback
+            - correct_answer_score
+            - distractor_options_feedback
+            - distractor_options_score
+            - reasoning_feedback
+            - reasoning_score
+
 # Reference
 - [MCQG-SRefine official github](https://github.com/bio-nlp/MedQG)
 - [arxiv paper: MCQG-SRefine: Multiple Choice Question Generation and Evaluation
